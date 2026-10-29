@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_specs",
+  "info": {
+    "displayName": "Spec",
+    "description": "One line of the specifications table, e.g. Power output: 40 W per channel"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "maxLength": 80,
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "maxLength": 200,
+      "required": true
+    }
+  }
+}

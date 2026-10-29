@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="220 400 420 315" width="1200" height="900"><defs>
+  <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+    <stop offset="0" stop-color="#f3f1ee"/><stop offset=".6" stop-color="#e4e1dc"/><stop offset="1" stop-color="#d3cfc9"/>
+  </radialGradient>
+  <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dcd8d2"/><stop offset="1" stop-color="#cbc6bf"/>
+  </linearGradient>
+  <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#1c1f24"/><stop offset="1" stop-color="#121418"/>
+  </linearGradient>
+  <radialGradient id="meter" cx="50%" cy="85%" r="90%">
+    <stop offset="0" stop-color="#4db4ff" stop-opacity=".95"/><stop offset="1" stop-color="#4db4ff" stop-opacity=".35"/>
+  </radialGradient>
+  <radialGradient id="knob" cx="35%" cy="30%" r="80%">
+    <stop offset="0" stop-color="#f2f4f6"/><stop offset=".55" stop-color="#9aa1aa"/><stop offset="1" stop-color="#3b4148"/>
+  </radialGradient>
+  <radialGradient id="cone" cx="45%" cy="40%" r="70%">
+    <stop offset="0" stop-color="#3a3f46"/><stop offset=".7" stop-color="#15181c"/><stop offset="1" stop-color="#0b0d10"/>
+  </radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="14" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs><rect width="1200" height="900" fill="url(#bg)"/>
+<rect y="690" width="1200" height="210" fill="url(#floor)"/>
+<line x1="0" y1="690" x2="1200" y2="690" stroke="#d2cdc6" stroke-width="2"/><ellipse cx="600" cy="720" rx="330" ry="22" fill="#3a342c" opacity=".28"/>
+<path d="M330 520 C 330 180, 870 180, 870 520" fill="none" stroke="#2a2f36" stroke-width="40" stroke-linecap="round"/>
+<path d="M330 520 C 330 200, 870 200, 870 520" fill="none" stroke="#6b4428" stroke-width="14"/>
+<rect x="250" y="440" width="150" height="240" rx="70" fill="url(#face)" stroke="#3a404a" stroke-width="4"/>
+<rect x="800" y="440" width="150" height="240" rx="70" fill="url(#face)" stroke="#3a404a" stroke-width="4"/>
+<circle cx="325" cy="560" r="40" fill="#4db4ff" opacity=".6"/><circle cx="875" cy="560" r="40" fill="#4db4ff" opacity=".6"/></svg>

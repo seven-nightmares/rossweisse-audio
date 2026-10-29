@@ -1,0 +1,3572 @@
+{
+	"siteSettings": {
+		"shopName": "Rossweisse Audio",
+		"tagline": "Tested vintage and modern hi-fi",
+		"announcement": "Free insured shipping on electronics within the contiguous US · Speakers ship by freight or local pickup",
+		"heroTitle": "Hi-fi that’s been through the lab, not just the listing.",
+		"heroText": "Vintage classics and modern components, each one inspected, serviced and listened to before it reaches you.",
+		"heroImage": {
+			"url": "demo/hero.svg",
+			"alternativeText": "",
+			"width": 2100,
+			"height": 900
+		},
+		"email": "hello@rossweisse-audio.example",
+		"phone": "(555) 010-0199",
+		"addressLines": [
+			"Showroom by appointment",
+			"100 Example Avenue",
+			"Anytown, NJ 00000"
+		],
+		"hours": [
+			"Tue–Fri 11am–6pm",
+			"Sat 10am–4pm"
+		],
+		"social": []
+	},
+	"categories": [
+		{
+			"name": "Amplifiers",
+			"slug": "amplifiers",
+			"sortOrder": 1,
+			"description": "Stereo and monoblock power amplifiers, tube and solid state.",
+			"showInMenu": true,
+			"showOnHome": true,
+			"image": {
+				"url": "demo/categories/amplifiers.svg",
+				"alternativeText": "Illustration representing Amplifiers",
+				"width": 1200,
+				"height": 900
+			}
+		},
+		{
+			"name": "Integrated Amplifiers",
+			"slug": "integrated-amplifiers",
+			"sortOrder": 2,
+			"description": "Preamp and power amp in one chassis.",
+			"showInMenu": true,
+			"showOnHome": true,
+			"image": {
+				"url": "demo/categories/integrated-amplifiers.svg",
+				"alternativeText": "Illustration representing Integrated Amplifiers",
+				"width": 1200,
+				"height": 900
+			}
+		},
+		{
+			"name": "Preamplifiers",
+			"slug": "preamplifiers",
+			"sortOrder": 3,
+			"description": "Line stages, phono stages and control centers.",
+			"showInMenu": true,
+			"showOnHome": false,
+			"image": {
+				"url": "demo/categories/preamplifiers.svg",
+				"alternativeText": "Illustration representing Preamplifiers",
+				"width": 1200,
+				"height": 900
+			}
+		},
+		{
+			"name": "Receivers",
+			"slug": "receivers",
+			"sortOrder": 4,
+			"description": "Amplifier and tuner together, many with glowing dial windows.",
+			"showInMenu": true,
+			"showOnHome": true,
+			"image": {
+				"url": "demo/categories/receivers.svg",
+				"alternativeText": "Illustration representing Receivers",
+				"width": 1200,
+				"height": 900
+			}
+		},
+		{
+			"name": "Speakers",
+			"slug": "speakers",
+			"sortOrder": 5,
+			"description": "Floorstanders, bookshelf monitors and horns.",
+			"showInMenu": true,
+			"showOnHome": true,
+			"image": {
+				"url": "demo/categories/speakers.svg",
+				"alternativeText": "Illustration representing Speakers",
+				"width": 1200,
+				"height": 900
+			}
+		},
+		{
+			"name": "Turntables",
+			"slug": "turntables",
+			"sortOrder": 6,
+			"description": "Belt, idler and direct drive, serviced and set up.",
+			"showInMenu": true,
+			"showOnHome": true,
+			"image": {
+				"url": "demo/categories/turntables.svg",
+				"alternativeText": "Illustration representing Turntables",
+				"width": 1200,
+				"height": 900
+			}
+		},
+		{
+			"name": "Phono Cartridges",
+			"slug": "phono-cartridges",
+			"sortOrder": 7,
+			"description": "Moving magnet and moving coil, new and pre-owned.",
+			"showInMenu": true,
+			"showOnHome": false,
+			"image": {
+				"url": "demo/categories/phono-cartridges.svg",
+				"alternativeText": "Illustration representing Phono Cartridges",
+				"width": 1200,
+				"height": 900
+			}
+		},
+		{
+			"name": "Tape Decks",
+			"slug": "tape-decks",
+			"sortOrder": 8,
+			"description": "Cassette and reel-to-reel decks with fresh belts.",
+			"showInMenu": true,
+			"showOnHome": true,
+			"image": {
+				"url": "demo/categories/tape-decks.svg",
+				"alternativeText": "Illustration representing Tape Decks",
+				"width": 1200,
+				"height": 900
+			}
+		},
+		{
+			"name": "CD & Digital",
+			"slug": "cd-digital",
+			"sortOrder": 9,
+			"description": "CD players, DACs and streamers.",
+			"showInMenu": true,
+			"showOnHome": false,
+			"image": {
+				"url": "demo/categories/cd-digital.svg",
+				"alternativeText": "Illustration representing CD & Digital",
+				"width": 1200,
+				"height": 900
+			}
+		},
+		{
+			"name": "Tuners",
+			"slug": "tuners",
+			"sortOrder": 10,
+			"description": "FM and AM/FM tuners for radio that still sounds right.",
+			"showInMenu": true,
+			"showOnHome": false,
+			"image": {
+				"url": "demo/categories/tuners.svg",
+				"alternativeText": "Illustration representing Tuners",
+				"width": 1200,
+				"height": 900
+			}
+		},
+		{
+			"name": "Cables & Interconnects",
+			"slug": "cables",
+			"sortOrder": 11,
+			"description": "Interconnects and speaker cables.",
+			"showInMenu": true,
+			"showOnHome": false,
+			"image": {
+				"url": "demo/categories/cables.svg",
+				"alternativeText": "Illustration representing Cables & Interconnects",
+				"width": 1200,
+				"height": 900
+			}
+		},
+		{
+			"name": "Accessories",
+			"slug": "accessories",
+			"sortOrder": 12,
+			"description": "Headphones and the bits that finish a system.",
+			"showInMenu": true,
+			"showOnHome": false,
+			"image": {
+				"url": "demo/categories/accessories.svg",
+				"alternativeText": "Illustration representing Accessories",
+				"width": 1200,
+				"height": 900
+			}
+		}
+	],
+	"brands": [
+		{
+			"name": "Marlowe & Finch",
+			"slug": "marlowe-finch",
+			"sortOrder": 1,
+			"country": "United Kingdom",
+			"founded": 1957,
+			"blurb": "Hand-wired tube amplifiers and preamps from a small Midlands workshop.",
+			"authorizedDealer": false
+		},
+		{
+			"name": "Kestrel Audio Labs",
+			"slug": "kestrel",
+			"sortOrder": 2,
+			"country": "United States",
+			"founded": 1974,
+			"blurb": "Muscular, cool-running solid-state amplification.",
+			"authorizedDealer": false
+		},
+		{
+			"name": "Tsukimi Electric",
+			"slug": "tsukimi",
+			"sortOrder": 3,
+			"country": "Japan",
+			"founded": 1951,
+			"blurb": "Receivers, tuners and tape decks built to a very high standard.",
+			"authorizedDealer": false
+		},
+		{
+			"name": "Halvorsen Acoustics",
+			"slug": "halvorsen",
+			"sortOrder": 4,
+			"country": "Norway",
+			"founded": 1966,
+			"blurb": "Warm, room-friendly loudspeakers in real wood veneers.",
+			"authorizedDealer": false
+		},
+		{
+			"name": "Aldenbrook",
+			"slug": "aldenbrook",
+			"sortOrder": 5,
+			"country": "United States",
+			"founded": 1962,
+			"blurb": "Turntables and tonearms with a reputation for quiet running.",
+			"authorizedDealer": false
+		},
+		{
+			"name": "Vireo Digital",
+			"slug": "vireo",
+			"sortOrder": 6,
+			"country": "United States",
+			"founded": 2012,
+			"blurb": "Modern DACs and streamers. We are an authorized dealer.",
+			"authorizedDealer": true
+		},
+		{
+			"name": "Corvane Loudspeakers",
+			"slug": "corvane",
+			"sortOrder": 7,
+			"country": "United States",
+			"founded": 1979,
+			"blurb": "Horn-loaded and studio-monitor designs.",
+			"authorizedDealer": false
+		},
+		{
+			"name": "Brightwater Sound",
+			"slug": "brightwater",
+			"sortOrder": 8,
+			"country": "United States",
+			"founded": 1985,
+			"blurb": "Quiet, transparent preamplifiers and phono stages.",
+			"authorizedDealer": false
+		},
+		{
+			"name": "Okuda Precision",
+			"slug": "okuda",
+			"sortOrder": 9,
+			"country": "Japan",
+			"founded": 1969,
+			"blurb": "Phono cartridges and tonearms. We are an authorized dealer.",
+			"authorizedDealer": true
+		},
+		{
+			"name": "Lindqvist Kabel",
+			"slug": "lindqvist",
+			"sortOrder": 10,
+			"country": "Sweden",
+			"founded": 1996,
+			"blurb": "Braided interconnects and speaker cables. Authorized dealer.",
+			"authorizedDealer": true
+		},
+		{
+			"name": "Sorrel Radio Company",
+			"slug": "sorrel",
+			"sortOrder": 11,
+			"country": "United States",
+			"founded": 1946,
+			"blurb": "Classic tube tuners and receivers.",
+			"authorizedDealer": false
+		}
+	],
+	"products": [
+		{
+			"sku": "RA-1001",
+			"slug": "marlowe-and-finch-mf-40-stereo-tube-amplifier",
+			"title": "Marlowe & Finch MF-40 Stereo Tube Amplifier",
+			"summary": "A classic 40-watt-per-channel push-pull tube amp, recapped and fitted with new output tubes.",
+			"brand": "marlowe-finch",
+			"category": "amplifiers",
+			"modelNumber": "MF-40",
+			"price": 3890,
+			"availability": "available",
+			"featured": true,
+			"arrivedOn": "2026-10-24",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": "tube",
+			"voltage": "120v",
+			"rare": false,
+			"conditionGrade": "6",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": "Light wear to the faceplate lettering and some pitting on the transformer covers. One small scuff on the left handle.",
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "The MF-40 is the amplifier many people picture when they think of British tube hi-fi: two big meters, chrome transformers and a tone that flatters almost any speaker."
+						}
+					]
+				},
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Forty watts per channel is enough for most efficient and moderately efficient speakers, and it runs cool enough to live in a living room."
+						}
+					]
+				}
+			],
+			"serviceNotes": "Power supply rebuilt with new filter capacitors in September 2026. All coupling capacitors replaced. Bias checked and set to factory spec.",
+			"tubeNotes": "New matched quad of current-production EL34 output tubes. Driver tubes test strong.",
+			"ownershipHistory": "Second owner; bought new by a local collector in 1964.",
+			"soundCharacter": "Rich midrange, relaxed treble, surprisingly firm bass.",
+			"connections": "RCA inputs, screw terminals for 4, 8 and 16 ohm speakers, captive power cord.",
+			"includedItems": "Amplifier and tube cage.",
+			"specs": [
+				{
+					"label": "Power output",
+					"value": "40 W per channel into 8 Ω"
+				},
+				{
+					"label": "Frequency response",
+					"value": "18 Hz – 40 kHz, ±1 dB"
+				},
+				{
+					"label": "Distortion",
+					"value": "< 0.5% at rated output"
+				},
+				{
+					"label": "Output tubes",
+					"value": "4 × EL34"
+				}
+			],
+			"yearsInProduction": "1961–1968",
+			"dimensions": "17 × 9 × 12 in (W × H × D)",
+			"weight": "48 lb",
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1001-1.svg",
+					"alternativeText": "Marlowe & Finch MF-40 Stereo Tube Amplifier, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1001-2.svg",
+					"alternativeText": "Marlowe & Finch MF-40 Stereo Tube Amplifier, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1001-3.svg",
+					"alternativeText": "Marlowe & Finch MF-40 Stereo Tube Amplifier, rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": [
+				"RA-1011",
+				"RA-1035",
+				"RA-1018"
+			]
+		},
+		{
+			"sku": "RA-1002",
+			"slug": "marlowe-and-finch-mf-75-monoblock-amplifiers-pair",
+			"title": "Marlowe & Finch MF-75 Monoblock Amplifiers (Pair)",
+			"summary": "A matched pair of 75-watt tube monoblocks with consecutive serial numbers.",
+			"brand": "marlowe-finch",
+			"category": "amplifiers",
+			"modelNumber": "MF-75",
+			"price": 7450,
+			"availability": "available",
+			"featured": true,
+			"arrivedOn": "2026-10-21",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": "tube",
+			"voltage": "120v",
+			"rare": true,
+			"conditionGrade": "7",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": "Very clean for their age. A few hairline scratches on the top plates.",
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Rarely seen as a matched pair, these monoblocks were the top of the Marlowe & Finch range. Each chassis drives one speaker with authority to spare."
+						}
+					]
+				}
+			],
+			"serviceNotes": "Both units fully restored: new capacitors, resistors in the signal path checked and replaced where out of tolerance, new tube sockets for the output stage.",
+			"tubeNotes": "New KT88 output tubes in both units; vintage driver tubes, all testing strong.",
+			"ownershipHistory": null,
+			"soundCharacter": "Big, open and effortless.",
+			"connections": "RCA input, binding posts for 4 and 8 ohm, IEC power socket on each unit.",
+			"includedItems": "Both amplifiers, two power cords and tube cages.",
+			"specs": [
+				{
+					"label": "Power output",
+					"value": "75 W into 8 Ω (each)"
+				},
+				{
+					"label": "Output tubes",
+					"value": "2 × KT88 per unit"
+				},
+				{
+					"label": "Input sensitivity",
+					"value": "1.0 V"
+				}
+			],
+			"yearsInProduction": "1964–1970",
+			"dimensions": "12 × 9 × 16 in each",
+			"weight": "55 lb each",
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1002-1.svg",
+					"alternativeText": "Marlowe & Finch MF-75 Monoblock Amplifiers (Pair), front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1002-2.svg",
+					"alternativeText": "Marlowe & Finch MF-75 Monoblock Amplifiers (Pair), close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1002-3.svg",
+					"alternativeText": "Marlowe & Finch MF-75 Monoblock Amplifiers (Pair), rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": [
+				"RA-1011",
+				"RA-1019"
+			]
+		},
+		{
+			"sku": "RA-1003",
+			"slug": "kestrel-ka-250-stereo-power-amplifier",
+			"title": "Kestrel KA-250 Stereo Power Amplifier",
+			"summary": "125 watts per channel of clean, solid-state power with big blue meters.",
+			"brand": "kestrel",
+			"category": "amplifiers",
+			"modelNumber": "KA-250",
+			"price": 1890,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-10-12",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": "solid-state",
+			"voltage": "120v",
+			"rare": false,
+			"conditionGrade": "8",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": "Excellent faceplate. Two light scratches on the top cover.",
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "The KA-250 drives difficult speakers without breaking a sweat, and its meters are a joy to watch."
+						}
+					]
+				}
+			],
+			"serviceNotes": "Cleaned throughout, output bias and DC offset set to spec, meter lamps replaced with warm LEDs.",
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": "RCA inputs, two sets of binding posts, captive power cord.",
+			"includedItems": "Amplifier only.",
+			"specs": [
+				{
+					"label": "Power output",
+					"value": "125 W per channel into 8 Ω"
+				},
+				{
+					"label": "Damping factor",
+					"value": "> 200"
+				},
+				{
+					"label": "Signal-to-noise",
+					"value": "110 dB"
+				}
+			],
+			"yearsInProduction": "1979–1984",
+			"dimensions": "19 × 7 × 15 in",
+			"weight": "42 lb",
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1003-1.svg",
+					"alternativeText": "Kestrel KA-250 Stereo Power Amplifier, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1003-2.svg",
+					"alternativeText": "Kestrel KA-250 Stereo Power Amplifier, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1003-3.svg",
+					"alternativeText": "Kestrel KA-250 Stereo Power Amplifier, rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": [
+				"RA-1010",
+				"RA-1017"
+			]
+		},
+		{
+			"sku": "RA-1004",
+			"slug": "kestrel-ka-600-reference-amplifier",
+			"title": "Kestrel KA-600 Reference Amplifier",
+			"summary": "A modern 300-watt reference amplifier from a single careful owner.",
+			"brand": "kestrel",
+			"category": "amplifiers",
+			"modelNumber": "KA-600",
+			"price": 5290,
+			"availability": "on-hold",
+			"featured": false,
+			"arrivedOn": "2026-10-05",
+			"newOrUsed": "pre-owned",
+			"era": "modern",
+			"technology": "solid-state",
+			"voltage": "switchable",
+			"rare": false,
+			"conditionGrade": "9",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": "Near perfect. Faint marks on the underside from its rack shelf.",
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Kestrel’s flagship of the 2010s. Balanced inputs, a massive power supply and very low noise."
+						}
+					]
+				}
+			],
+			"serviceNotes": null,
+			"tubeNotes": null,
+			"ownershipHistory": "One owner, non-smoking home, original box and manual.",
+			"soundCharacter": null,
+			"connections": "XLR and RCA inputs, two pairs of binding posts, IEC socket.",
+			"includedItems": "Original box, manual, power cord.",
+			"specs": [
+				{
+					"label": "Power output",
+					"value": "300 W per channel into 8 Ω"
+				},
+				{
+					"label": "Inputs",
+					"value": "Balanced XLR, single-ended RCA"
+				}
+			],
+			"yearsInProduction": "2009–2016",
+			"dimensions": "19 × 9 × 20 in",
+			"weight": "88 lb",
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1004-1.svg",
+					"alternativeText": "Kestrel KA-600 Reference Amplifier, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1004-2.svg",
+					"alternativeText": "Kestrel KA-600 Reference Amplifier, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1004-3.svg",
+					"alternativeText": "Kestrel KA-600 Reference Amplifier, rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1005",
+			"slug": "kestrel-ka-120-compact-amplifier",
+			"title": "Kestrel KA-120 Compact Amplifier",
+			"summary": "A compact 60-watt amplifier, ideal for a second system.",
+			"brand": "kestrel",
+			"category": "amplifiers",
+			"modelNumber": "KA-120",
+			"price": 790,
+			"availability": "sold",
+			"featured": false,
+			"arrivedOn": "2026-09-02",
+			"newOrUsed": "pre-owned",
+			"era": "modern",
+			"technology": "solid-state",
+			"voltage": "120v",
+			"rare": false,
+			"conditionGrade": "7",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": null,
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "A compact 60-watt amplifier, ideal for a second system."
+						}
+					]
+				}
+			],
+			"serviceNotes": null,
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [],
+			"yearsInProduction": "2011–2015",
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1005-1.svg",
+					"alternativeText": "Kestrel KA-120 Compact Amplifier, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1005-2.svg",
+					"alternativeText": "Kestrel KA-120 Compact Amplifier, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1005-3.svg",
+					"alternativeText": "Kestrel KA-120 Compact Amplifier, rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1006",
+			"slug": "marlowe-and-finch-mf-30i-integrated-tube-amplifier",
+			"title": "Marlowe & Finch MF-30i Integrated Tube Amplifier",
+			"summary": "A 30-watt integrated tube amp with a built-in moving-magnet phono stage.",
+			"brand": "marlowe-finch",
+			"category": "integrated-amplifiers",
+			"modelNumber": "MF-30i",
+			"price": 2690,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-10-18",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": "tube",
+			"voltage": "120v",
+			"rare": false,
+			"conditionGrade": "7",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": "Wood case has a few small nicks; faceplate is very good.",
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Everything you need for a vintage record system in one handsome chassis: just add a turntable and speakers."
+						}
+					]
+				}
+			],
+			"serviceNotes": "Recapped, selector switches and volume control cleaned, new power cord fitted.",
+			"tubeNotes": "Output tubes test at 85–90% of new. Spare set available on request.",
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [
+				{
+					"label": "Power output",
+					"value": "30 W per channel"
+				},
+				{
+					"label": "Phono input",
+					"value": "Moving magnet"
+				}
+			],
+			"yearsInProduction": "1966–1972",
+			"dimensions": "16 × 6 × 12 in",
+			"weight": "31 lb",
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1006-1.svg",
+					"alternativeText": "Marlowe & Finch MF-30i Integrated Tube Amplifier, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1006-2.svg",
+					"alternativeText": "Marlowe & Finch MF-30i Integrated Tube Amplifier, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1006-3.svg",
+					"alternativeText": "Marlowe & Finch MF-30i Integrated Tube Amplifier, rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": [
+				"RA-1022",
+				"RA-1026",
+				"RA-1018"
+			]
+		},
+		{
+			"sku": "RA-1007",
+			"slug": "tsukimi-ta-7700-integrated-amplifier",
+			"title": "Tsukimi TA-7700 Integrated Amplifier",
+			"summary": "Late-70s Japanese integrated with twin meters and a superb phono stage.",
+			"brand": "tsukimi",
+			"category": "integrated-amplifiers",
+			"modelNumber": "TA-7700",
+			"price": 1250,
+			"availability": "available",
+			"featured": true,
+			"arrivedOn": "2026-10-26",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": "solid-state",
+			"voltage": "120v",
+			"rare": false,
+			"conditionGrade": "8",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": "Faceplate excellent. Wood side cheeks show light wear.",
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Built when Japanese manufacturers were competing hardest on quality. Heavy, quiet and beautifully finished."
+						}
+					]
+				}
+			],
+			"serviceNotes": "All controls cleaned, protection relay replaced, meter lamps replaced.",
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [
+				{
+					"label": "Power output",
+					"value": "90 W per channel"
+				},
+				{
+					"label": "Phono",
+					"value": "MM and MC"
+				},
+				{
+					"label": "Tone controls",
+					"value": "Bass, mid, treble with defeat"
+				}
+			],
+			"yearsInProduction": "1977–1980",
+			"dimensions": "18 × 6 × 15 in",
+			"weight": "34 lb",
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1007-1.svg",
+					"alternativeText": "Tsukimi TA-7700 Integrated Amplifier, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1007-2.svg",
+					"alternativeText": "Tsukimi TA-7700 Integrated Amplifier, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1007-3.svg",
+					"alternativeText": "Tsukimi TA-7700 Integrated Amplifier, rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": [
+				"RA-1024",
+				"RA-1018"
+			]
+		},
+		{
+			"sku": "RA-1008",
+			"slug": "brightwater-bi-2-hybrid-integrated-amplifier",
+			"title": "Brightwater BI-2 Hybrid Integrated Amplifier",
+			"summary": "Tube preamp stage, solid-state output: warmth with real control.",
+			"brand": "brightwater",
+			"category": "integrated-amplifiers",
+			"modelNumber": "BI-2",
+			"price": 3400,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-10-08",
+			"newOrUsed": "pre-owned",
+			"era": "modern",
+			"technology": "hybrid",
+			"voltage": "switchable",
+			"rare": false,
+			"conditionGrade": "9",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": "Like new.",
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "A modern hybrid that pairs a tube input stage with a high-current solid-state output stage. Includes a remote."
+						}
+					]
+				}
+			],
+			"serviceNotes": null,
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": "Original box, remote control, manual, power cord.",
+			"specs": [
+				{
+					"label": "Power output",
+					"value": "150 W per channel into 8 Ω"
+				},
+				{
+					"label": "Input tubes",
+					"value": "2 × 6922"
+				}
+			],
+			"yearsInProduction": "2018–present",
+			"dimensions": "17 × 5 × 16 in",
+			"weight": "38 lb",
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1008-1.svg",
+					"alternativeText": "Brightwater BI-2 Hybrid Integrated Amplifier, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1008-2.svg",
+					"alternativeText": "Brightwater BI-2 Hybrid Integrated Amplifier, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1008-3.svg",
+					"alternativeText": "Brightwater BI-2 Hybrid Integrated Amplifier, rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1009",
+			"slug": "kestrel-ki-90-integrated-amplifier-220-240v",
+			"title": "Kestrel KI-90 Integrated Amplifier (220–240V)",
+			"summary": "European-voltage unit, ideal for international buyers or with a step-down transformer.",
+			"brand": "kestrel",
+			"category": "integrated-amplifiers",
+			"modelNumber": "KI-90",
+			"price": 1490,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-09-28",
+			"newOrUsed": "pre-owned",
+			"era": "modern",
+			"technology": "solid-state",
+			"voltage": "240v",
+			"rare": false,
+			"conditionGrade": "8",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": null,
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "This unit is wired for 220–240V mains. It will not work on US outlets without a suitable step-up transformer, which we can supply."
+						}
+					]
+				}
+			],
+			"serviceNotes": null,
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [
+				{
+					"label": "Power output",
+					"value": "90 W per channel"
+				},
+				{
+					"label": "Mains",
+					"value": "230 V, 50 Hz"
+				}
+			],
+			"yearsInProduction": "2012–2018",
+			"dimensions": "17 × 4 × 14 in",
+			"weight": "24 lb",
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1009-1.svg",
+					"alternativeText": "Kestrel KI-90 Integrated Amplifier (220–240V), front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1009-2.svg",
+					"alternativeText": "Kestrel KI-90 Integrated Amplifier (220–240V), close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1009-3.svg",
+					"alternativeText": "Kestrel KI-90 Integrated Amplifier (220–240V), rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1010",
+			"slug": "brightwater-bp-1-line-preamplifier",
+			"title": "Brightwater BP-1 Line Preamplifier",
+			"summary": "A dead-quiet line stage with a precise stepped volume control.",
+			"brand": "brightwater",
+			"category": "preamplifiers",
+			"modelNumber": "BP-1",
+			"price": 1990,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-10-15",
+			"newOrUsed": "pre-owned",
+			"era": "modern",
+			"technology": "solid-state",
+			"voltage": "switchable",
+			"rare": false,
+			"conditionGrade": "9",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": "Excellent. No visible marks on the faceplate.",
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "A dead-quiet line stage with a precise stepped volume control."
+						}
+					]
+				}
+			],
+			"serviceNotes": null,
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": "Remote, manual, power cord.",
+			"specs": [
+				{
+					"label": "Inputs",
+					"value": "4 × RCA, 1 × XLR"
+				},
+				{
+					"label": "Outputs",
+					"value": "RCA and XLR"
+				},
+				{
+					"label": "Volume",
+					"value": "0.5 dB steps"
+				}
+			],
+			"yearsInProduction": "2014–2020",
+			"dimensions": "17 × 3.5 × 13 in",
+			"weight": "16 lb",
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1010-1.svg",
+					"alternativeText": "Brightwater BP-1 Line Preamplifier, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1010-2.svg",
+					"alternativeText": "Brightwater BP-1 Line Preamplifier, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1010-3.svg",
+					"alternativeText": "Brightwater BP-1 Line Preamplifier, rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1011",
+			"slug": "marlowe-and-finch-mf-22-tube-preamplifier-with-phono",
+			"title": "Marlowe & Finch MF-22 Tube Preamplifier with Phono",
+			"summary": "The matching preamp for the MF-40, with a lovely tube phono stage.",
+			"brand": "marlowe-finch",
+			"category": "preamplifiers",
+			"modelNumber": "MF-22",
+			"price": 2450,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-10-10",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": "tube",
+			"voltage": "120v",
+			"rare": true,
+			"conditionGrade": "6",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": "Visible wear on the faceplate lettering and one small dent in the top cover.",
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "The matching preamp for the MF-40, with a lovely tube phono stage."
+						}
+					]
+				}
+			],
+			"serviceNotes": "Recapped and rewired with new RCA jacks. All controls cleaned and lubricated.",
+			"tubeNotes": "Six 12AX7 tubes, all testing strong. Low noise selected for the phono stage.",
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [
+				{
+					"label": "Tubes",
+					"value": "6 × 12AX7"
+				},
+				{
+					"label": "Phono",
+					"value": "Moving magnet, RIAA"
+				}
+			],
+			"yearsInProduction": "1960–1967",
+			"dimensions": null,
+			"weight": "14 lb",
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1011-1.svg",
+					"alternativeText": "Marlowe & Finch MF-22 Tube Preamplifier with Phono, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1011-2.svg",
+					"alternativeText": "Marlowe & Finch MF-22 Tube Preamplifier with Phono, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1011-3.svg",
+					"alternativeText": "Marlowe & Finch MF-22 Tube Preamplifier with Phono, rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1012",
+			"slug": "brightwater-phono-one-mm-mc-phono-stage",
+			"title": "Brightwater Phono One MM/MC Phono Stage",
+			"summary": "Open-box phono stage, never installed. Adjustable loading for MC cartridges.",
+			"brand": "brightwater",
+			"category": "preamplifiers",
+			"modelNumber": "Phono One",
+			"price": 1195,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-10-02",
+			"newOrUsed": "pre-owned",
+			"era": "modern",
+			"technology": "solid-state",
+			"voltage": "switchable",
+			"rare": false,
+			"conditionGrade": "10",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": null,
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Open-box phono stage, never installed. Adjustable loading for MC cartridges."
+						}
+					]
+				}
+			],
+			"serviceNotes": null,
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": "Original box, manual, power supply.",
+			"specs": [
+				{
+					"label": "Gain",
+					"value": "40 / 60 dB"
+				},
+				{
+					"label": "MC loading",
+					"value": "50 Ω – 47 kΩ"
+				}
+			],
+			"yearsInProduction": "2020–present",
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1012-1.svg",
+					"alternativeText": "Brightwater Phono One MM/MC Phono Stage, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1012-2.svg",
+					"alternativeText": "Brightwater Phono One MM/MC Phono Stage, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1012-3.svg",
+					"alternativeText": "Brightwater Phono One MM/MC Phono Stage, rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1013",
+			"slug": "tsukimi-tr-2250-stereo-receiver",
+			"title": "Tsukimi TR-2250 Stereo Receiver",
+			"summary": "The glowing blue dial everyone remembers, fully serviced and ready for another 40 years.",
+			"brand": "tsukimi",
+			"category": "receivers",
+			"modelNumber": "TR-2250",
+			"price": 1650,
+			"availability": "available",
+			"featured": true,
+			"arrivedOn": "2026-10-27",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": "solid-state",
+			"voltage": "120v",
+			"rare": false,
+			"conditionGrade": "7",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": "Two small scratches on the top of the wood case. Faceplate is very good.",
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "A 50-watt-per-channel receiver with a smooth flywheel tuning knob and that unmistakable glow."
+						}
+					]
+				},
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "We replaced every dial lamp with warm LEDs matched to the original color, so it will stay bright for years."
+						}
+					]
+				}
+			],
+			"serviceNotes": "Full recap of the power supply and amplifier boards. Tuner aligned. All lamps replaced.",
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [
+				{
+					"label": "Power output",
+					"value": "50 W per channel into 8 Ω"
+				},
+				{
+					"label": "FM sensitivity",
+					"value": "1.9 µV"
+				},
+				{
+					"label": "Phono",
+					"value": "Moving magnet"
+				}
+			],
+			"yearsInProduction": "1975–1978",
+			"dimensions": "20 × 6 × 15 in",
+			"weight": "35 lb",
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1013-1.svg",
+					"alternativeText": "Tsukimi TR-2250 Stereo Receiver, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1013-2.svg",
+					"alternativeText": "Tsukimi TR-2250 Stereo Receiver, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1013-3.svg",
+					"alternativeText": "Tsukimi TR-2250 Stereo Receiver, rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": [
+				"RA-1018",
+				"RA-1022"
+			]
+		},
+		{
+			"sku": "RA-1014",
+			"slug": "tsukimi-tr-4400-quadraphonic-receiver",
+			"title": "Tsukimi TR-4400 Quadraphonic Receiver",
+			"summary": "A four-channel showpiece receiver, also superb in plain stereo.",
+			"brand": "tsukimi",
+			"category": "receivers",
+			"modelNumber": "TR-4400",
+			"price": 2890,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-09-30",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": "solid-state",
+			"voltage": "120v",
+			"rare": true,
+			"conditionGrade": "6",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": "Wood case refinished. Faceplate has visible scratches around the volume knob.",
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "A four-channel showpiece receiver, also superb in plain stereo."
+						}
+					]
+				}
+			],
+			"serviceNotes": "Recapped; all four channels tested to spec. Decoder board cleaned.",
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [],
+			"yearsInProduction": "1973–1976",
+			"dimensions": null,
+			"weight": "52 lb",
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1014-1.svg",
+					"alternativeText": "Tsukimi TR-4400 Quadraphonic Receiver, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1014-2.svg",
+					"alternativeText": "Tsukimi TR-4400 Quadraphonic Receiver, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1014-3.svg",
+					"alternativeText": "Tsukimi TR-4400 Quadraphonic Receiver, rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": "Heavy: ships double-boxed by freight, or pick up at the showroom.",
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1015",
+			"slug": "sorrel-model-8-stereo-tube-receiver",
+			"title": "Sorrel Model 8 Stereo Tube Receiver",
+			"summary": "An early-60s tube receiver with genuine character and a warm, glowing dial.",
+			"brand": "sorrel",
+			"category": "receivers",
+			"modelNumber": "Model 8",
+			"price": 1350,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-09-25",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": "tube",
+			"voltage": "120v",
+			"rare": false,
+			"conditionGrade": "5",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": "Multiple scratches including the faceplate; see photos.",
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "An early-60s tube receiver with genuine character and a warm, glowing dial."
+						}
+					]
+				}
+			],
+			"serviceNotes": "Recapped, rectifier replaced, dial cord restrung.",
+			"tubeNotes": "Output tubes replaced; original tuner tubes retained and testing well.",
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [],
+			"yearsInProduction": "1961–1964",
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1015-1.svg",
+					"alternativeText": "Sorrel Model 8 Stereo Tube Receiver, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1015-2.svg",
+					"alternativeText": "Sorrel Model 8 Stereo Tube Receiver, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1015-3.svg",
+					"alternativeText": "Sorrel Model 8 Stereo Tube Receiver, rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1016",
+			"slug": "tsukimi-tr-1500-stereo-receiver",
+			"title": "Tsukimi TR-1500 Stereo Receiver",
+			"summary": "Compact entry-level receiver.",
+			"brand": "tsukimi",
+			"category": "receivers",
+			"modelNumber": "TR-1500",
+			"price": 690,
+			"availability": "sold",
+			"featured": false,
+			"arrivedOn": "2026-09-04",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": "solid-state",
+			"voltage": "120v",
+			"rare": false,
+			"conditionGrade": "7",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": null,
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Compact entry-level receiver."
+						}
+					]
+				}
+			],
+			"serviceNotes": null,
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [],
+			"yearsInProduction": null,
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1016-1.svg",
+					"alternativeText": "Tsukimi TR-1500 Stereo Receiver, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1016-2.svg",
+					"alternativeText": "Tsukimi TR-1500 Stereo Receiver, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1016-3.svg",
+					"alternativeText": "Tsukimi TR-1500 Stereo Receiver, rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1017",
+			"slug": "halvorsen-fjord-3-floorstanding-speakers-pair",
+			"title": "Halvorsen Fjord 3 Floorstanding Speakers (Pair)",
+			"summary": "Three-way floorstanders in walnut, with refoamed woofers.",
+			"brand": "halvorsen",
+			"category": "speakers",
+			"modelNumber": "Fjord 3",
+			"price": 2950,
+			"availability": "available",
+			"featured": true,
+			"arrivedOn": "2026-10-22",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": null,
+			"voltage": null,
+			"rare": false,
+			"conditionGrade": "8",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": "Veneer in very good condition. Grilles have two small pulls.",
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Big, warm and easy to drive. The Fjord 3 fills a room without shouting, and looks wonderful doing it."
+						}
+					]
+				}
+			],
+			"serviceNotes": "Woofers refoamed, crossovers inspected, all drivers tested.",
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": "Both speakers with grilles.",
+			"specs": [
+				{
+					"label": "Drivers",
+					"value": "10 in woofer, 5 in midrange, 1 in dome tweeter"
+				},
+				{
+					"label": "Impedance",
+					"value": "8 Ω"
+				},
+				{
+					"label": "Sensitivity",
+					"value": "91 dB"
+				}
+			],
+			"yearsInProduction": "1981–1986",
+			"dimensions": "14 × 40 × 13 in each",
+			"weight": "62 lb each",
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1017-1.svg",
+					"alternativeText": "Halvorsen Fjord 3 Floorstanding Speakers (Pair), front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1017-2.svg",
+					"alternativeText": "Halvorsen Fjord 3 Floorstanding Speakers (Pair), close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": true,
+			"shippingNote": "Local pickup only, or delivery within 50 miles for a fee.",
+			"recommendedWith": [
+				"RA-1003",
+				"RA-1036"
+			]
+		},
+		{
+			"sku": "RA-1018",
+			"slug": "halvorsen-nord-1-bookshelf-speakers-pair",
+			"title": "Halvorsen Nord 1 Bookshelf Speakers (Pair)",
+			"summary": "Small two-way speakers with a big, natural sound. Great with tube amps.",
+			"brand": "halvorsen",
+			"category": "speakers",
+			"modelNumber": "Nord 1",
+			"price": 890,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-10-19",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": null,
+			"voltage": null,
+			"rare": false,
+			"conditionGrade": "7",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": "Light marks on the tops and a small chip on one rear corner.",
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Small two-way speakers with a big, natural sound. Great with tube amps."
+						}
+					]
+				}
+			],
+			"serviceNotes": "All drivers tested; tweeter level controls cleaned.",
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [
+				{
+					"label": "Drivers",
+					"value": "8 in woofer, 1 in tweeter"
+				},
+				{
+					"label": "Impedance",
+					"value": "8 Ω"
+				}
+			],
+			"yearsInProduction": "1974–1979",
+			"dimensions": "11 × 18 × 9 in each",
+			"weight": "17 lb each",
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1018-1.svg",
+					"alternativeText": "Halvorsen Nord 1 Bookshelf Speakers (Pair), front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1018-2.svg",
+					"alternativeText": "Halvorsen Nord 1 Bookshelf Speakers (Pair), close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1019",
+			"slug": "corvane-c-15-horn-loudspeakers-pair",
+			"title": "Corvane C-15 Horn Loudspeakers (Pair)",
+			"summary": "High-efficiency horn speakers that come alive with even a few watts.",
+			"brand": "corvane",
+			"category": "speakers",
+			"modelNumber": "C-15",
+			"price": 6200,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-10-03",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": null,
+			"voltage": null,
+			"rare": true,
+			"conditionGrade": "6",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": "Cabinets show their age with scuffs on the lower edges. Drivers are original and perfect.",
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "These need very little power, which makes them a natural partner for low-powered tube amplifiers."
+						}
+					]
+				}
+			],
+			"serviceNotes": null,
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [
+				{
+					"label": "Sensitivity",
+					"value": "104 dB"
+				},
+				{
+					"label": "Impedance",
+					"value": "8 Ω"
+				}
+			],
+			"yearsInProduction": "1981–1990",
+			"dimensions": null,
+			"weight": "120 lb each",
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1019-1.svg",
+					"alternativeText": "Corvane C-15 Horn Loudspeakers (Pair), front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1019-2.svg",
+					"alternativeText": "Corvane C-15 Horn Loudspeakers (Pair), close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": true,
+			"shippingNote": "Local pickup or freight only.",
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1020",
+			"slug": "corvane-studio-6-monitors-pair",
+			"title": "Corvane Studio 6 Monitors (Pair)",
+			"summary": "Accurate stand-mount monitors, barely used.",
+			"brand": "corvane",
+			"category": "speakers",
+			"modelNumber": "Studio 6",
+			"price": 1750,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-10-13",
+			"newOrUsed": "pre-owned",
+			"era": "modern",
+			"technology": null,
+			"voltage": null,
+			"rare": false,
+			"conditionGrade": "9",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": null,
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Accurate stand-mount monitors, barely used."
+						}
+					]
+				}
+			],
+			"serviceNotes": null,
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": "Original boxes, grilles, manual.",
+			"specs": [],
+			"yearsInProduction": "2015–2021",
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1020-1.svg",
+					"alternativeText": "Corvane Studio 6 Monitors (Pair), front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1020-2.svg",
+					"alternativeText": "Corvane Studio 6 Monitors (Pair), close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1021",
+			"slug": "corvane-c-8-loudspeakers-pair",
+			"title": "Corvane C-8 Loudspeakers (Pair)",
+			"summary": "Mid-size horn-loaded speakers.",
+			"brand": "corvane",
+			"category": "speakers",
+			"modelNumber": "C-8",
+			"price": 1900,
+			"availability": "sold",
+			"featured": false,
+			"arrivedOn": "2026-09-10",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": null,
+			"voltage": null,
+			"rare": false,
+			"conditionGrade": "7",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": null,
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Mid-size horn-loaded speakers."
+						}
+					]
+				}
+			],
+			"serviceNotes": null,
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [],
+			"yearsInProduction": null,
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1021-1.svg",
+					"alternativeText": "Corvane C-8 Loudspeakers (Pair), front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1021-2.svg",
+					"alternativeText": "Corvane C-8 Loudspeakers (Pair), close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1022",
+			"slug": "aldenbrook-model-20-belt-drive-turntable",
+			"title": "Aldenbrook Model 20 Belt-Drive Turntable",
+			"summary": "A beautifully quiet belt-drive deck, set up and ready to play.",
+			"brand": "aldenbrook",
+			"category": "turntables",
+			"modelNumber": "Model 20",
+			"price": 1150,
+			"availability": "available",
+			"featured": true,
+			"arrivedOn": "2026-10-25",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": null,
+			"voltage": "120v",
+			"rare": false,
+			"conditionGrade": "7",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": "Dust cover slightly hazy; plinth very good.",
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "A beautifully quiet belt-drive deck, set up and ready to play."
+						}
+					]
+				}
+			],
+			"serviceNotes": "New belt, bearing cleaned and re-oiled, speed calibrated, tonearm set up with a new cartridge.",
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": "Dust cover, mat and an Okuda OM-10 cartridge mounted and aligned.",
+			"specs": [
+				{
+					"label": "Drive",
+					"value": "Belt"
+				},
+				{
+					"label": "Speeds",
+					"value": "33⅓ and 45 rpm"
+				},
+				{
+					"label": "Wow and flutter",
+					"value": "0.05%"
+				}
+			],
+			"yearsInProduction": "1970–1977",
+			"dimensions": null,
+			"weight": "19 lb",
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1022-1.svg",
+					"alternativeText": "Aldenbrook Model 20 Belt-Drive Turntable, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1022-2.svg",
+					"alternativeText": "Aldenbrook Model 20 Belt-Drive Turntable, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": [
+				"RA-1026",
+				"RA-1012"
+			]
+		},
+		{
+			"sku": "RA-1023",
+			"slug": "aldenbrook-model-40-idler-drive-turntable-in-walnut-plinth",
+			"title": "Aldenbrook Model 40 Idler-Drive Turntable in Walnut Plinth",
+			"summary": "Fully restored idler-drive classic in a custom solid-walnut plinth.",
+			"brand": "aldenbrook",
+			"category": "turntables",
+			"modelNumber": "Model 40",
+			"price": 3690,
+			"availability": "available",
+			"featured": true,
+			"arrivedOn": "2026-10-20",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": null,
+			"voltage": "120v",
+			"rare": true,
+			"conditionGrade": "8",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": "Top plate repainted. Plinth is new.",
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Idler-drive turntables have a punch and drive that belt-drive decks rarely match. This one has been completely rebuilt in our workshop."
+						}
+					]
+				}
+			],
+			"serviceNotes": "Motor rebuilt, new idler wheel, bearing serviced, new plinth built in-house.",
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [
+				{
+					"label": "Drive",
+					"value": "Idler wheel"
+				},
+				{
+					"label": "Speeds",
+					"value": "16, 33⅓, 45 and 78 rpm"
+				}
+			],
+			"yearsInProduction": "1957–1965",
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1023-1.svg",
+					"alternativeText": "Aldenbrook Model 40 Idler-Drive Turntable in Walnut Plinth, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1023-2.svg",
+					"alternativeText": "Aldenbrook Model 40 Idler-Drive Turntable in Walnut Plinth, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1024",
+			"slug": "tsukimi-tt-5-direct-drive-turntable",
+			"title": "Tsukimi TT-5 Direct-Drive Turntable",
+			"summary": "Rock-steady direct drive with quartz lock.",
+			"brand": "tsukimi",
+			"category": "turntables",
+			"modelNumber": "TT-5",
+			"price": 990,
+			"availability": "on-hold",
+			"featured": false,
+			"arrivedOn": "2026-10-11",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": null,
+			"voltage": "120v",
+			"rare": false,
+			"conditionGrade": "8",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": null,
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Rock-steady direct drive with quartz lock."
+						}
+					]
+				}
+			],
+			"serviceNotes": "Speed calibrated, arm lift damped, new feet.",
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [],
+			"yearsInProduction": "1978–1982",
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1024-1.svg",
+					"alternativeText": "Tsukimi TT-5 Direct-Drive Turntable, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1024-2.svg",
+					"alternativeText": "Tsukimi TT-5 Direct-Drive Turntable, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1025",
+			"slug": "okuda-oc-3-moving-coil-cartridge",
+			"title": "Okuda OC-3 Moving Coil Cartridge",
+			"summary": "Brand new, with full manufacturer warranty.",
+			"brand": "okuda",
+			"category": "phono-cartridges",
+			"modelNumber": "OC-3",
+			"price": 899,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-10-14",
+			"newOrUsed": "new",
+			"era": "modern",
+			"technology": null,
+			"voltage": null,
+			"rare": false,
+			"conditionGrade": "new",
+			"workingCondition": "New and sealed.",
+			"cosmeticNotes": null,
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Brand new, with full manufacturer warranty."
+						}
+					]
+				}
+			],
+			"serviceNotes": null,
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": "Sealed box with mounting hardware and stylus guard.",
+			"specs": [
+				{
+					"label": "Type",
+					"value": "Low-output moving coil"
+				},
+				{
+					"label": "Output",
+					"value": "0.4 mV"
+				},
+				{
+					"label": "Stylus",
+					"value": "Microline"
+				}
+			],
+			"yearsInProduction": null,
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1025-1.svg",
+					"alternativeText": "Okuda OC-3 Moving Coil Cartridge, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1025-2.svg",
+					"alternativeText": "Okuda OC-3 Moving Coil Cartridge, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": [
+				"RA-1012"
+			]
+		},
+		{
+			"sku": "RA-1026",
+			"slug": "okuda-om-10-moving-magnet-cartridge-new-old-stock",
+			"title": "Okuda OM-10 Moving Magnet Cartridge (New Old Stock)",
+			"summary": "Sealed 1980s stock, never mounted.",
+			"brand": "okuda",
+			"category": "phono-cartridges",
+			"modelNumber": "OM-10",
+			"price": 249,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-10-09",
+			"newOrUsed": "nos",
+			"era": "vintage",
+			"technology": null,
+			"voltage": null,
+			"rare": false,
+			"conditionGrade": "nos",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": null,
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Sealed 1980s stock, never mounted."
+						}
+					]
+				}
+			],
+			"serviceNotes": null,
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [
+				{
+					"label": "Type",
+					"value": "Moving magnet"
+				},
+				{
+					"label": "Output",
+					"value": "4 mV"
+				}
+			],
+			"yearsInProduction": null,
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1026-1.svg",
+					"alternativeText": "Okuda OM-10 Moving Magnet Cartridge (New Old Stock), front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1026-2.svg",
+					"alternativeText": "Okuda OM-10 Moving Magnet Cartridge (New Old Stock), close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1027",
+			"slug": "okuda-oc-1-moving-coil-cartridge-pre-owned",
+			"title": "Okuda OC-1 Moving Coil Cartridge (Pre-owned)",
+			"summary": "About 150 hours of use, stylus inspected under the microscope.",
+			"brand": "okuda",
+			"category": "phono-cartridges",
+			"modelNumber": "OC-1",
+			"price": 520,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-09-27",
+			"newOrUsed": "pre-owned",
+			"era": "modern",
+			"technology": null,
+			"voltage": null,
+			"rare": false,
+			"conditionGrade": "9",
+			"workingCondition": "Stylus inspected under magnification: minimal wear. Tested on our reference turntable.",
+			"cosmeticNotes": null,
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "About 150 hours of use, stylus inspected under the microscope."
+						}
+					]
+				}
+			],
+			"serviceNotes": null,
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [],
+			"yearsInProduction": null,
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1027-1.svg",
+					"alternativeText": "Okuda OC-1 Moving Coil Cartridge (Pre-owned), front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1027-2.svg",
+					"alternativeText": "Okuda OC-1 Moving Coil Cartridge (Pre-owned), close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1028",
+			"slug": "tsukimi-td-9-three-head-cassette-deck",
+			"title": "Tsukimi TD-9 Three-Head Cassette Deck",
+			"summary": "A three-head deck with fresh belts and an alignment to factory spec.",
+			"brand": "tsukimi",
+			"category": "tape-decks",
+			"modelNumber": "TD-9",
+			"price": 1490,
+			"availability": "available",
+			"featured": true,
+			"arrivedOn": "2026-10-23",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": "solid-state",
+			"voltage": "120v",
+			"rare": false,
+			"conditionGrade": "8",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": "Very good; light marks on the cassette door.",
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "A three-head deck with fresh belts and an alignment to factory spec."
+						}
+					]
+				}
+			],
+			"serviceNotes": "All belts replaced, heads cleaned and demagnetized, azimuth and speed calibrated.",
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [
+				{
+					"label": "Heads",
+					"value": "3 (separate record and playback)"
+				},
+				{
+					"label": "Noise reduction",
+					"value": "Type B and C"
+				}
+			],
+			"yearsInProduction": "1981–1984",
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1028-1.svg",
+					"alternativeText": "Tsukimi TD-9 Three-Head Cassette Deck, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1028-2.svg",
+					"alternativeText": "Tsukimi TD-9 Three-Head Cassette Deck, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1028-3.svg",
+					"alternativeText": "Tsukimi TD-9 Three-Head Cassette Deck, rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1029",
+			"slug": "tsukimi-tr-77-reel-to-reel-tape-deck",
+			"title": "Tsukimi TR-77 Reel-to-Reel Tape Deck",
+			"summary": "A 7-inch reel deck with new pinch roller and belts.",
+			"brand": "tsukimi",
+			"category": "tape-decks",
+			"modelNumber": "TR-77",
+			"price": 2250,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-10-06",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": "solid-state",
+			"voltage": "120v",
+			"rare": true,
+			"conditionGrade": "6",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": "Scratches on the head cover; one knob is a period-correct replacement.",
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "A 7-inch reel deck with new pinch roller and belts."
+						}
+					]
+				}
+			],
+			"serviceNotes": "New pinch roller and belts, brakes adjusted, heads cleaned and demagnetized.",
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": "Two empty reels and a dust cover.",
+			"specs": [],
+			"yearsInProduction": "1972–1977",
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1029-1.svg",
+					"alternativeText": "Tsukimi TR-77 Reel-to-Reel Tape Deck, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1029-2.svg",
+					"alternativeText": "Tsukimi TR-77 Reel-to-Reel Tape Deck, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1030",
+			"slug": "tsukimi-td-3-cassette-deck",
+			"title": "Tsukimi TD-3 Cassette Deck",
+			"summary": "Two-head cassette deck.",
+			"brand": "tsukimi",
+			"category": "tape-decks",
+			"modelNumber": "TD-3",
+			"price": 390,
+			"availability": "sold",
+			"featured": false,
+			"arrivedOn": "2026-09-08",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": "solid-state",
+			"voltage": "120v",
+			"rare": false,
+			"conditionGrade": "7",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": null,
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Two-head cassette deck."
+						}
+					]
+				}
+			],
+			"serviceNotes": null,
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [],
+			"yearsInProduction": null,
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1030-1.svg",
+					"alternativeText": "Tsukimi TD-3 Cassette Deck, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1030-2.svg",
+					"alternativeText": "Tsukimi TD-3 Cassette Deck, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1030-3.svg",
+					"alternativeText": "Tsukimi TD-3 Cassette Deck, rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1031",
+			"slug": "vireo-stream-dac-two",
+			"title": "Vireo Stream DAC Two",
+			"summary": "Streamer and DAC in one box. New, with full manufacturer warranty.",
+			"brand": "vireo",
+			"category": "cd-digital",
+			"modelNumber": "Stream DAC Two",
+			"price": 2495,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-10-16",
+			"newOrUsed": "new",
+			"era": "modern",
+			"technology": "solid-state",
+			"voltage": "switchable",
+			"rare": false,
+			"conditionGrade": "new",
+			"workingCondition": "New and sealed.",
+			"cosmeticNotes": null,
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Plays your streaming services and your own files, and doubles as a high-quality DAC for a CD transport or TV."
+						}
+					]
+				}
+			],
+			"serviceNotes": null,
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": "Sealed box, remote, power cord.",
+			"specs": [
+				{
+					"label": "Inputs",
+					"value": "USB, optical, coaxial, Ethernet, Wi-Fi"
+				},
+				{
+					"label": "Outputs",
+					"value": "RCA and XLR"
+				},
+				{
+					"label": "Formats",
+					"value": "PCM to 384 kHz, DSD256"
+				}
+			],
+			"yearsInProduction": null,
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1031-1.svg",
+					"alternativeText": "Vireo Stream DAC Two, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1031-2.svg",
+					"alternativeText": "Vireo Stream DAC Two, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1031-3.svg",
+					"alternativeText": "Vireo Stream DAC Two, rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1032",
+			"slug": "kestrel-kcd-5-cd-player",
+			"title": "Kestrel KCD-5 CD Player",
+			"summary": "A solid, well-built CD player with a smooth, quiet drawer.",
+			"brand": "kestrel",
+			"category": "cd-digital",
+			"modelNumber": "KCD-5",
+			"price": 690,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-09-29",
+			"newOrUsed": "pre-owned",
+			"era": "modern",
+			"technology": "solid-state",
+			"voltage": "120v",
+			"rare": false,
+			"conditionGrade": "8",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": null,
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "A solid, well-built CD player with a smooth, quiet drawer."
+						}
+					]
+				}
+			],
+			"serviceNotes": "Laser checked, drawer belt replaced.",
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": "Remote control.",
+			"specs": [],
+			"yearsInProduction": "2003–2008",
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1032-1.svg",
+					"alternativeText": "Kestrel KCD-5 CD Player, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1032-2.svg",
+					"alternativeText": "Kestrel KCD-5 CD Player, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1032-3.svg",
+					"alternativeText": "Kestrel KCD-5 CD Player, rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1033",
+			"slug": "sorrel-fm-60-tube-fm-tuner",
+			"title": "Sorrel FM-60 Tube FM Tuner",
+			"summary": "A warm-sounding tube FM tuner, aligned and recapped.",
+			"brand": "sorrel",
+			"category": "tuners",
+			"modelNumber": "FM-60",
+			"price": 590,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-10-07",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": "tube",
+			"voltage": "120v",
+			"rare": false,
+			"conditionGrade": "6",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": null,
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "A warm-sounding tube FM tuner, aligned and recapped."
+						}
+					]
+				}
+			],
+			"serviceNotes": "Recapped and aligned for best stereo separation.",
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [],
+			"yearsInProduction": "1959–1963",
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1033-1.svg",
+					"alternativeText": "Sorrel FM-60 Tube FM Tuner, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1033-2.svg",
+					"alternativeText": "Sorrel FM-60 Tube FM Tuner, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1033-3.svg",
+					"alternativeText": "Sorrel FM-60 Tube FM Tuner, rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1034",
+			"slug": "tsukimi-ft-500-analog-tuner",
+			"title": "Tsukimi FT-500 Analog Tuner",
+			"summary": "Sensitive analog FM tuner.",
+			"brand": "tsukimi",
+			"category": "tuners",
+			"modelNumber": "FT-500",
+			"price": 450,
+			"availability": "sold",
+			"featured": false,
+			"arrivedOn": "2026-09-12",
+			"newOrUsed": "pre-owned",
+			"era": "vintage",
+			"technology": "solid-state",
+			"voltage": "120v",
+			"rare": false,
+			"conditionGrade": "8",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": null,
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Sensitive analog FM tuner."
+						}
+					]
+				}
+			],
+			"serviceNotes": null,
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [],
+			"yearsInProduction": null,
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1034-1.svg",
+					"alternativeText": "Tsukimi FT-500 Analog Tuner, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1034-2.svg",
+					"alternativeText": "Tsukimi FT-500 Analog Tuner, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1034-3.svg",
+					"alternativeText": "Tsukimi FT-500 Analog Tuner, rear panel (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1035",
+			"slug": "lindqvist-aria-rca-interconnects-1-m-pair",
+			"title": "Lindqvist Aria RCA Interconnects, 1 m Pair",
+			"summary": "Braided interconnects that suit almost any system. New.",
+			"brand": "lindqvist",
+			"category": "cables",
+			"modelNumber": "Aria",
+			"price": 320,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-10-01",
+			"newOrUsed": "new",
+			"era": "modern",
+			"technology": null,
+			"voltage": null,
+			"rare": false,
+			"conditionGrade": "new",
+			"workingCondition": "New and sealed.",
+			"cosmeticNotes": null,
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Braided interconnects that suit almost any system. New."
+						}
+					]
+				}
+			],
+			"serviceNotes": null,
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [
+				{
+					"label": "Length",
+					"value": "1 m"
+				},
+				{
+					"label": "Connectors",
+					"value": "Gold-plated RCA"
+				}
+			],
+			"yearsInProduction": null,
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1035-1.svg",
+					"alternativeText": "Lindqvist Aria RCA Interconnects, 1 m Pair, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1035-2.svg",
+					"alternativeText": "Lindqvist Aria RCA Interconnects, 1 m Pair, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1036",
+			"slug": "lindqvist-aria-speaker-cables-8-ft-pair",
+			"title": "Lindqvist Aria Speaker Cables, 8 ft Pair",
+			"summary": "Matching speaker cables with banana or spade terminations. New.",
+			"brand": "lindqvist",
+			"category": "cables",
+			"modelNumber": "Aria",
+			"price": 640,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-10-01",
+			"newOrUsed": "new",
+			"era": "modern",
+			"technology": null,
+			"voltage": null,
+			"rare": false,
+			"conditionGrade": "new",
+			"workingCondition": "New and sealed.",
+			"cosmeticNotes": null,
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Matching speaker cables with banana or spade terminations. New."
+						}
+					]
+				}
+			],
+			"serviceNotes": null,
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": null,
+			"specs": [
+				{
+					"label": "Length",
+					"value": "8 ft"
+				},
+				{
+					"label": "Terminations",
+					"value": "Banana or spade (your choice)"
+				}
+			],
+			"yearsInProduction": null,
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1036-1.svg",
+					"alternativeText": "Lindqvist Aria Speaker Cables, 8 ft Pair, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1036-2.svg",
+					"alternativeText": "Lindqvist Aria Speaker Cables, 8 ft Pair, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		},
+		{
+			"sku": "RA-1037",
+			"slug": "corvane-h-1-open-back-headphones",
+			"title": "Corvane H-1 Open-Back Headphones",
+			"summary": "Comfortable open-back headphones with fresh ear pads.",
+			"brand": "corvane",
+			"category": "accessories",
+			"modelNumber": "H-1",
+			"price": 380,
+			"availability": "available",
+			"featured": false,
+			"arrivedOn": "2026-10-17",
+			"newOrUsed": "pre-owned",
+			"era": "modern",
+			"technology": null,
+			"voltage": null,
+			"rare": false,
+			"conditionGrade": "9",
+			"workingCondition": "Fully working. Tested on the bench and in our listening room.",
+			"cosmeticNotes": null,
+			"description": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Comfortable open-back headphones with fresh ear pads."
+						}
+					]
+				}
+			],
+			"serviceNotes": null,
+			"tubeNotes": null,
+			"ownershipHistory": null,
+			"soundCharacter": null,
+			"connections": null,
+			"includedItems": "Case, two cables, new ear pads fitted.",
+			"specs": [],
+			"yearsInProduction": null,
+			"dimensions": null,
+			"weight": null,
+			"manualUrl": null,
+			"photos": [
+				{
+					"url": "demo/products/ra-1037-1.svg",
+					"alternativeText": "Corvane H-1 Open-Back Headphones, front view (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				},
+				{
+					"url": "demo/products/ra-1037-2.svg",
+					"alternativeText": "Corvane H-1 Open-Back Headphones, close-up detail (placeholder illustration)",
+					"width": 1200,
+					"height": 900
+				}
+			],
+			"localPickupOnly": false,
+			"shippingNote": null,
+			"recommendedWith": []
+		}
+	],
+	"infoPages": [
+		{
+			"title": "About Rossweisse Audio",
+			"slug": "about",
+			"menuGroup": "about",
+			"sortOrder": 1,
+			"summary": "Who we are and how we choose the gear we sell.",
+			"body": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Rossweisse Audio is a small hi-fi shop for people who love listening. We buy, service and sell vintage and modern audio equipment, and we only list pieces we would be happy to own ourselves."
+						}
+					]
+				},
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Every piece is tested on the bench and in our listening room before it goes on the site. If something is not right, we fix it or we do not sell it."
+						}
+					]
+				},
+				{
+					"type": "heading",
+					"level": 2,
+					"children": [
+						{
+							"type": "text",
+							"text": "Visit us"
+						}
+					]
+				},
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Our showroom is open by appointment, so we can give you our full attention and a proper listen. "
+						},
+						{
+							"type": "link",
+							"url": "/info/contact",
+							"children": [
+								{
+									"type": "text",
+									"text": "Get in touch"
+								}
+							]
+						},
+						{
+							"type": "text",
+							"text": " to book a time."
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Our Testing Process",
+			"slug": "testing-process",
+			"menuGroup": "about",
+			"sortOrder": 2,
+			"summary": "What happens to every piece before it is listed.",
+			"body": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Each component goes through the same steps before we list it:"
+						}
+					]
+				},
+				{
+					"type": "list",
+					"format": "unordered",
+					"children": [
+						{
+							"type": "list-item",
+							"children": [
+								{
+									"type": "text",
+									"text": "Inspection. ",
+									"bold": true
+								},
+								{
+									"type": "text",
+									"text": "We open it up and look for heat damage, leaking or bulging capacitors and previous repairs."
+								}
+							]
+						},
+						{
+							"type": "list-item",
+							"children": [
+								{
+									"type": "text",
+									"text": "Safe power-up. ",
+									"bold": true
+								},
+								{
+									"type": "text",
+									"text": "Vintage gear is brought up slowly on a variable supply while we watch the critical voltages."
+								}
+							]
+						},
+						{
+							"type": "list-item",
+							"children": [
+								{
+									"type": "text",
+									"text": "Bench measurements. ",
+									"bold": true
+								},
+								{
+									"type": "text",
+									"text": "Output power, distortion, channel balance and noise are checked against the original specifications."
+								}
+							]
+						},
+						{
+							"type": "list-item",
+							"children": [
+								{
+									"type": "text",
+									"text": "Service. ",
+									"bold": true
+								},
+								{
+									"type": "text",
+									"text": "Worn parts are replaced, controls are cleaned and anything out of spec is repaired."
+								}
+							]
+						},
+						{
+							"type": "list-item",
+							"children": [
+								{
+									"type": "text",
+									"text": "Listening. ",
+									"bold": true
+								},
+								{
+									"type": "text",
+									"text": "Finally, it plays music in our listening room for several hours."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "What we found and what we replaced is written in each listing under "
+						},
+						{
+							"type": "text",
+							"text": "Service notes",
+							"bold": true
+						},
+						{
+							"type": "text",
+							"text": "."
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Our Rating Scale",
+			"slug": "rating-scale",
+			"menuGroup": "about",
+			"sortOrder": 3,
+			"summary": "How we grade cosmetic condition, from New to For parts only.",
+			"body": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "The condition grade on each listing describes how the piece "
+						},
+						{
+							"type": "text",
+							"text": "looks",
+							"bold": true
+						},
+						{
+							"type": "text",
+							"text": ". How it "
+						},
+						{
+							"type": "text",
+							"text": "works",
+							"bold": true
+						},
+						{
+							"type": "text",
+							"text": " is described separately under Working condition, and everything we sell works unless the listing clearly says otherwise."
+						}
+					]
+				},
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Our scale follows the 1-to-10 convention common in the used hi-fi world. We grade conservatively: if we are unsure between two grades, we choose the lower one."
+						}
+					]
+				},
+				{
+					"type": "list",
+					"format": "unordered",
+					"children": [
+						{
+							"type": "list-item",
+							"children": [
+								{
+									"type": "text",
+									"text": "New: ",
+									"bold": true
+								},
+								{
+									"type": "text",
+									"text": "factory sealed, with full manufacturer warranty."
+								}
+							]
+						},
+						{
+							"type": "list-item",
+							"children": [
+								{
+									"type": "text",
+									"text": "New old stock (NOS): ",
+									"bold": true
+								},
+								{
+									"type": "text",
+									"text": "never used, but made years or decades ago."
+								}
+							]
+						},
+						{
+							"type": "list-item",
+							"children": [
+								{
+									"type": "text",
+									"text": "10 · Mint: ",
+									"bold": true
+								},
+								{
+									"type": "text",
+									"text": "no signs of use at all, usually open-box."
+								}
+							]
+						},
+						{
+							"type": "list-item",
+							"children": [
+								{
+									"type": "text",
+									"text": "9 · Excellent: ",
+									"bold": true
+								},
+								{
+									"type": "text",
+									"text": "looks new on close inspection; at most a faint mark where it sat."
+								}
+							]
+						},
+						{
+							"type": "list-item",
+							"children": [
+								{
+									"type": "text",
+									"text": "8 · Very good: ",
+									"bold": true
+								},
+								{
+									"type": "text",
+									"text": "a clean faceplate and one or two minor marks elsewhere."
+								}
+							]
+						},
+						{
+							"type": "list-item",
+							"children": [
+								{
+									"type": "text",
+									"text": "7 · Good: ",
+									"bold": true
+								},
+								{
+									"type": "text",
+									"text": "a few light scratches or light wear on knobs and switches."
+								}
+							]
+						},
+						{
+							"type": "list-item",
+							"children": [
+								{
+									"type": "text",
+									"text": "6 · Fair: ",
+									"bold": true
+								},
+								{
+									"type": "text",
+									"text": "several scratches or one obvious mark; still presents well."
+								}
+							]
+						},
+						{
+							"type": "list-item",
+							"children": [
+								{
+									"type": "text",
+									"text": "5 · Average: ",
+									"bold": true
+								},
+								{
+									"type": "text",
+									"text": "visible wear, including on the front panel."
+								}
+							]
+						},
+						{
+							"type": "list-item",
+							"children": [
+								{
+									"type": "text",
+									"text": "4 · Worn: ",
+									"bold": true
+								},
+								{
+									"type": "text",
+									"text": "rough cosmetics, but everything works."
+								}
+							]
+						},
+						{
+							"type": "list-item",
+							"children": [
+								{
+									"type": "text",
+									"text": "3 · Rough: ",
+									"bold": true
+								},
+								{
+									"type": "text",
+									"text": "heavy wear, possibly a missing knob or cover."
+								}
+							]
+						},
+						{
+							"type": "list-item",
+							"children": [
+								{
+									"type": "text",
+									"text": "2 · Very rough: ",
+									"bold": true
+								},
+								{
+									"type": "text",
+									"text": "damaged parts; sold mainly for restoration."
+								}
+							]
+						},
+						{
+							"type": "list-item",
+							"children": [
+								{
+									"type": "text",
+									"text": "1 · For parts only: ",
+									"bold": true
+								},
+								{
+									"type": "text",
+									"text": "not working; sold as-is for parts."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Photos show every mark we mention. If you would like more pictures, just ask."
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Warranty & Returns",
+			"slug": "warranty",
+			"menuGroup": "about",
+			"sortOrder": 4,
+			"summary": "What we promise, and what happens if something goes wrong.",
+			"body": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Pre-owned pieces come with our 90-day warranty covering parts and labor. New pieces carry the full manufacturer warranty."
+						}
+					]
+				},
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "If a piece arrives damaged or does not match its description, contact us within 7 days and we will make it right: a repair, a replacement or a refund."
+						}
+					]
+				},
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "This is sample policy text for the demo. The shop will publish its real terms before launch."
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Shipping & Pickup",
+			"slug": "shipping-and-pickup",
+			"menuGroup": "about",
+			"sortOrder": 5,
+			"summary": "How we pack, ship and hand over your gear.",
+			"body": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Electronics are double-boxed with custom foam and fully insured. Speakers and very heavy pieces ship by freight or can be picked up at the showroom; their listings say so."
+						}
+					]
+				},
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Local pickup is always free. Bring a blanket for the drive home."
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Consignment",
+			"slug": "consignment",
+			"menuGroup": "sell",
+			"sortOrder": 6,
+			"summary": "Let us sell your gear for you.",
+			"body": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "If you would rather not deal with buyers yourself, we can sell your equipment on consignment. We test, photograph and list it, handle every question and ship it safely."
+						}
+					]
+				},
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "We agree the asking price together, and you are paid once the buyer has received the piece and is happy with it."
+						}
+					]
+				},
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "link",
+							"url": "/sell",
+							"children": [
+								{
+									"type": "text",
+									"text": "Tell us about your gear"
+								}
+							]
+						},
+						{
+							"type": "text",
+							"text": " to get started."
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Contact",
+			"slug": "contact",
+			"menuGroup": null,
+			"sortOrder": 7,
+			"summary": "Call, email or book a listening appointment.",
+			"body": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "The quickest way to reach us is by phone or email. Questions about a particular piece? Use the "
+						},
+						{
+							"type": "text",
+							"text": "Ask about this piece",
+							"bold": true
+						},
+						{
+							"type": "text",
+							"text": " button on its page so we know exactly which one you mean."
+						}
+					]
+				},
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"text": "Thinking about a whole system? Try our "
+						},
+						{
+							"type": "link",
+							"url": "/concierge",
+							"children": [
+								{
+									"type": "text",
+									"text": "system help"
+								}
+							]
+						},
+						{
+							"type": "text",
+							"text": " form."
+						}
+					]
+				}
+			]
+		}
+	],
+	"wantedItems": [
+		{
+			"brand": "Marlowe & Finch",
+			"model": "MF-40 and MF-75 tube amplifiers",
+			"note": "Working or not",
+			"sortOrder": 1
+		},
+		{
+			"brand": "Marlowe & Finch",
+			"model": "MF-22 preamplifier",
+			"note": null,
+			"sortOrder": 2
+		},
+		{
+			"brand": "Tsukimi Electric",
+			"model": "TR-4400 and TR-6600 receivers",
+			"note": null,
+			"sortOrder": 3
+		},
+		{
+			"brand": "Tsukimi Electric",
+			"model": "TR-77 and TR-99 reel-to-reel decks",
+			"note": "Working or not",
+			"sortOrder": 4
+		},
+		{
+			"brand": "Halvorsen Acoustics",
+			"model": "Fjord 5 speakers",
+			"note": "Local pickup preferred",
+			"sortOrder": 5
+		},
+		{
+			"brand": "Aldenbrook",
+			"model": "Model 40 and Model 50 turntables",
+			"note": "Any condition",
+			"sortOrder": 6
+		},
+		{
+			"brand": "Sorrel Radio Company",
+			"model": "Model 10 tube receiver",
+			"note": null,
+			"sortOrder": 7
+		},
+		{
+			"brand": "Corvane Loudspeakers",
+			"model": "C-15 and C-21 horns",
+			"note": null,
+			"sortOrder": 8
+		},
+		{
+			"brand": "Kestrel Audio Labs",
+			"model": "KA-600 and KA-900 amplifiers",
+			"note": null,
+			"sortOrder": 9
+		},
+		{
+			"brand": "Brightwater Sound",
+			"model": "BP-0 preamplifier",
+			"note": null,
+			"sortOrder": 10
+		}
+	]
+}

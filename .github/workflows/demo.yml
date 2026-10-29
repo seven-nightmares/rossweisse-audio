@@ -1,0 +1,85 @@
+# Checks the CMS, then tests and builds the static storefront demo (sample data, no backend) and
+# publishes it to GitHub Pages.
+# The site is served at https://<owner>.github.io/<repo>/, so the base path is the repo name.
+name: Demo site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  cms:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: cms
+    env:
+      npm_config_cache: /home/runner/.npm
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: cms/package-lock.json
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    env:
+      # web/.npmrc points the npm cache at the owner's G: drive; use the runner's default instead.
+      npm_config_cache: /home/runner/.npm
+      PLAYWRIGHT_BROWSERS_PATH: ${{ github.workspace }}/.tools/ms-playwright
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      - run: npm run check
+      - run: npm run lint
+      - run: npm test
+      - name: End-to-end tests against the static demo
+        run: |
+          npx playwright install --with-deps chromium
+          npm run test:e2e:demo
+        env:
+          CI: true
+      - name: Build demo for this repository's Pages URL
+        run: |
+          npx vite build
+          touch build-demo/.nojekyll
+        env:
+          BUILD_TARGET: demo
+          BASE_PATH: /${{ github.event.repository.name }}
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: web/build-demo
+
+  deploy:
+    needs: [cms, build]
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

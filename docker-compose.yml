@@ -1,0 +1,78 @@
+# Local stack: PostgreSQL + Strapi (staff admin) + SvelteKit storefront.
+# Copy .env.example to .env first (scripts/new-env.ps1 does this and fills in secrets).
+# Ports 3001/1338 (not the usual 3000/1337) so this stack can run alongside another local Strapi stack.
+name: audiostore
+
+services:
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DATABASE_NAME:?Set DATABASE_NAME in .env}
+      POSTGRES_USER: ${DATABASE_USERNAME:?Set DATABASE_USERNAME in .env}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD:?Set DATABASE_PASSWORD in .env}
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U "$${POSTGRES_USER}" -d "$${POSTGRES_DB}"']
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  cms:
+    build: ./cms
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      HOST: 0.0.0.0
+      PORT: 1337
+      APP_KEYS: ${APP_KEYS:?Set APP_KEYS in .env}
+      API_TOKEN_SALT: ${API_TOKEN_SALT:?Set API_TOKEN_SALT in .env}
+      ADMIN_JWT_SECRET: ${ADMIN_JWT_SECRET:?Set ADMIN_JWT_SECRET in .env}
+      TRANSFER_TOKEN_SALT: ${TRANSFER_TOKEN_SALT:?Set TRANSFER_TOKEN_SALT in .env}
+      JWT_SECRET: ${JWT_SECRET:?Set JWT_SECRET in .env}
+      ENCRYPTION_KEY: ${ENCRYPTION_KEY:?Set ENCRYPTION_KEY in .env}
+      DATABASE_CLIENT: postgres
+      DATABASE_HOST: db
+      DATABASE_PORT: 5432
+      DATABASE_NAME: ${DATABASE_NAME}
+      DATABASE_USERNAME: ${DATABASE_USERNAME}
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+      DATABASE_SSL: 'false'
+    volumes:
+      # Source is bind-mounted so schema changes made in the admin land in the repo.
+      - ./cms/src:/opt/app/src
+      - ./cms/config:/opt/app/config
+      - ./cms/database:/opt/app/database
+      - ./cms/types:/opt/app/types
+      - ./cms/scripts:/opt/app/scripts
+      # The seed reads the storefront's sample content, so the demo and the CMS can't drift.
+      - ./web/src/lib/demo:/opt/app/demo-content/data:ro
+      - ./web/static/demo:/opt/app/demo-content/static/demo:ro
+      # Uploaded photos live in a named volume (scripts/backup.ps1 saves it).
+      - cms-uploads:/opt/app/public/uploads
+    ports:
+      - '127.0.0.1:1338:1337'
+
+  web:
+    build:
+      context: ./web
+      args:
+        # The address visitors use; baked into the build for the inquiry form's CSRF check.
+        ORIGIN: ${SITE_ORIGIN:-http://localhost:3001}
+    restart: unless-stopped
+    depends_on:
+      cms:
+        condition: service_healthy
+    environment:
+      STRAPI_URL: http://cms:1337
+      STRAPI_API_TOKEN: ${STRAPI_API_TOKEN:-}
+      STRAPI_INQUIRY_TOKEN: ${STRAPI_INQUIRY_TOKEN:-}
+    ports:
+      - '127.0.0.1:3001:3000'
+
+volumes:
+  db-data:
+  cms-uploads:

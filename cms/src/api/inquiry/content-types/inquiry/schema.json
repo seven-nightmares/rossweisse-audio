@@ -1,0 +1,82 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inquiries",
+  "info": {
+    "singularName": "inquiry",
+    "pluralName": "inquiries",
+    "displayName": "Inquiry",
+    "description": "Messages sent from the website forms. Work through them by status."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "new",
+        "replied",
+        "closed"
+      ],
+      "default": "new",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "product-question",
+        "sell",
+        "trade",
+        "consign",
+        "concierge"
+      ],
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 100,
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "maxLength": 40
+    },
+    "message": {
+      "type": "text",
+      "maxLength": 4000,
+      "required": true
+    },
+    "productSku": {
+      "type": "string",
+      "maxLength": 32
+    },
+    "productTitle": {
+      "type": "string",
+      "maxLength": 160
+    },
+    "gearDescription": {
+      "type": "text",
+      "maxLength": 2000
+    },
+    "budget": {
+      "type": "string",
+      "maxLength": 60
+    },
+    "roomSize": {
+      "type": "string",
+      "maxLength": 120
+    },
+    "musicTaste": {
+      "type": "string",
+      "maxLength": 400
+    },
+    "staffNotes": {
+      "type": "text"
+    }
+  }
+}

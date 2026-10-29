@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "info_pages",
+  "info": {
+    "singularName": "info-page",
+    "pluralName": "info-pages",
+    "displayName": "Info Page",
+    "description": "Pages like About, Warranty, Rating Scale and Contact."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 120,
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "summary": {
+      "type": "text",
+      "maxLength": 280
+    },
+    "menuGroup": {
+      "type": "enumeration",
+      "enum": [
+        "about",
+        "sell"
+      ]
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    },
+    "body": {
+      "type": "blocks"
+    }
+  }
+}

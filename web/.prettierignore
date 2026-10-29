@@ -1,0 +1,6 @@
+# Package Managers
+package-lock.json
+
+# Generated
+/static/demo/
+/src/lib/demo/content.json

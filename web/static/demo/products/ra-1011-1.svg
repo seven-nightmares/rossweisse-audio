@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900"><defs>
+  <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+    <stop offset="0" stop-color="#f3f1ee"/><stop offset=".6" stop-color="#e4e1dc"/><stop offset="1" stop-color="#d3cfc9"/>
+  </radialGradient>
+  <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dcd8d2"/><stop offset="1" stop-color="#cbc6bf"/>
+  </linearGradient>
+  <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#d8c9a5"/><stop offset="1" stop-color="#bfae86"/>
+  </linearGradient>
+  <radialGradient id="meter" cx="50%" cy="85%" r="90%">
+    <stop offset="0" stop-color="#5fe0a8" stop-opacity=".95"/><stop offset="1" stop-color="#5fe0a8" stop-opacity=".35"/>
+  </radialGradient>
+  <radialGradient id="knob" cx="35%" cy="30%" r="80%">
+    <stop offset="0" stop-color="#f2f4f6"/><stop offset=".55" stop-color="#9aa1aa"/><stop offset="1" stop-color="#3b4148"/>
+  </radialGradient>
+  <radialGradient id="cone" cx="45%" cy="40%" r="70%">
+    <stop offset="0" stop-color="#3a3f46"/><stop offset=".7" stop-color="#15181c"/><stop offset="1" stop-color="#0b0d10"/>
+  </radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="14" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs><rect width="1200" height="900" fill="url(#bg)"/>
+<rect y="690" width="1200" height="210" fill="url(#floor)"/>
+<line x1="0" y1="690" x2="1200" y2="690" stroke="#d2cdc6" stroke-width="2"/><ellipse cx="600" cy="620" rx="484.00000000000006" ry="22" fill="#3a342c" opacity=".28"/>
+
+<rect x="160" y="420" width="880" height="170" rx="10" fill="url(#face)" stroke="#8f805e" stroke-width="3"/>
+<rect x="166" y="426" width="868" height="6" rx="3" fill="#fff" opacity=".18"/>
+<rect x="200" y="590" width="60" height="14" rx="4" fill="#0d0f12"/>
+<rect x="940" y="590" width="60" height="14" rx="4" fill="#0d0f12"/>
+<circle cx="250" cy="515" r="30" fill="#0d0f12" opacity=".6"/>
+<circle cx="250" cy="515" r="26" fill="url(#knob)" stroke="#2b3036" stroke-width="2"/>
+<line x1="250" y1="515" x2="233.3" y2="502.6" stroke="#15181c" stroke-width="3.25" stroke-linecap="round"/><circle cx="354" cy="515" r="30" fill="#0d0f12" opacity=".6"/>
+<circle cx="354" cy="515" r="26" fill="url(#knob)" stroke="#2b3036" stroke-width="2"/>
+<line x1="354" y1="515" x2="335.5" y2="524.5" stroke="#15181c" stroke-width="3.25" stroke-linecap="round"/><circle cx="458" cy="515" r="30" fill="#0d0f12" opacity=".6"/>
+<circle cx="458" cy="515" r="26" fill="url(#knob)" stroke="#2b3036" stroke-width="2"/>
+<line x1="458" y1="515" x2="453.4" y2="494.7" stroke="#15181c" stroke-width="3.25" stroke-linecap="round"/><circle cx="562" cy="515" r="30" fill="#0d0f12" opacity=".6"/>
+<circle cx="562" cy="515" r="26" fill="url(#knob)" stroke="#2b3036" stroke-width="2"/>
+<line x1="562" y1="515" x2="562.3" y2="494.2" stroke="#15181c" stroke-width="3.25" stroke-linecap="round"/><circle cx="666" cy="515" r="30" fill="#0d0f12" opacity=".6"/>
+<circle cx="666" cy="515" r="26" fill="url(#knob)" stroke="#2b3036" stroke-width="2"/>
+<line x1="666" y1="515" x2="645.9" y2="509.6" stroke="#15181c" stroke-width="3.25" stroke-linecap="round"/><circle cx="770" cy="515" r="30" fill="#0d0f12" opacity=".6"/>
+<circle cx="770" cy="515" r="26" fill="url(#knob)" stroke="#2b3036" stroke-width="2"/>
+<line x1="770" y1="515" x2="787.3" y2="503.4" stroke="#15181c" stroke-width="3.25" stroke-linecap="round"/>
+<rect x="840" y="475" width="150" height="56" rx="6" fill="#071019"/>
+<text x="915" y="513" fill="#5fe0a8" font-family="monospace" font-size="30" text-anchor="middle" filter="url(#glow)">-32.5</text>
+<text x="200" y="456" fill="#2b2418" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2" text-anchor="start">Marlowe &amp; Finch</text><text x="1000" y="570" fill="#2b2418" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" letter-spacing="2" text-anchor="end">MF-22</text></svg>

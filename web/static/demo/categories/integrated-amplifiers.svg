@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900"><defs>
+  <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+    <stop offset="0" stop-color="#f3f1ee"/><stop offset=".6" stop-color="#e4e1dc"/><stop offset="1" stop-color="#d3cfc9"/>
+  </radialGradient>
+  <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dcd8d2"/><stop offset="1" stop-color="#cbc6bf"/>
+  </linearGradient>
+  <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#d8c9a5"/><stop offset="1" stop-color="#bfae86"/>
+  </linearGradient>
+  <radialGradient id="meter" cx="50%" cy="85%" r="90%">
+    <stop offset="0" stop-color="#4db4ff" stop-opacity=".95"/><stop offset="1" stop-color="#4db4ff" stop-opacity=".35"/>
+  </radialGradient>
+  <radialGradient id="knob" cx="35%" cy="30%" r="80%">
+    <stop offset="0" stop-color="#f2f4f6"/><stop offset=".55" stop-color="#9aa1aa"/><stop offset="1" stop-color="#3b4148"/>
+  </radialGradient>
+  <radialGradient id="cone" cx="45%" cy="40%" r="70%">
+    <stop offset="0" stop-color="#3a3f46"/><stop offset=".7" stop-color="#15181c"/><stop offset="1" stop-color="#0b0d10"/>
+  </radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="14" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs><rect width="1200" height="900" fill="url(#bg)"/>
+<rect y="690" width="1200" height="210" fill="url(#floor)"/>
+<line x1="0" y1="690" x2="1200" y2="690" stroke="#d2cdc6" stroke-width="2"/><ellipse cx="600" cy="660" rx="473.00000000000006" ry="22" fill="#3a342c" opacity=".28"/>
+
+<rect x="170" y="330" width="860" height="300" rx="10" fill="url(#face)" stroke="#8f805e" stroke-width="3"/>
+<rect x="176" y="336" width="848" height="6" rx="3" fill="#fff" opacity=".18"/>
+<rect x="210" y="630" width="60" height="14" rx="4" fill="#0d0f12"/>
+<rect x="930" y="630" width="60" height="14" rx="4" fill="#0d0f12"/>
+<g>
+<rect x="230" y="370" width="220" height="120" rx="8" fill="url(#meter)" filter="url(#glow)"/>
+<rect x="230" y="370" width="220" height="120" rx="8" fill="none" stroke="#0b1016" stroke-width="4"/>
+<line x1="259.8" y1="443.1" x2="279.4" y2="453.1" stroke="#0b1016" stroke-width="3"/><line x1="270.7" y1="426.6" x2="279.9" y2="434.3" stroke="#0b1016" stroke-width="3"/><line x1="284.8" y1="412.9" x2="292.2" y2="422.4" stroke="#0b1016" stroke-width="3"/><line x1="301.7" y1="402.6" x2="306.8" y2="413.4" stroke="#0b1016" stroke-width="3"/><line x1="320.4" y1="396.2" x2="323.0" y2="407.9" stroke="#0b1016" stroke-width="3"/><line x1="340.0" y1="394.0" x2="340.0" y2="416.0" stroke="#0b1016" stroke-width="3"/><line x1="359.6" y1="396.2" x2="357.0" y2="407.9" stroke="#0b1016" stroke-width="3"/><line x1="378.3" y1="402.6" x2="373.2" y2="413.4" stroke="#0b1016" stroke-width="3"/><line x1="395.2" y1="412.9" x2="387.8" y2="422.4" stroke="#0b1016" stroke-width="3"/><line x1="409.3" y1="426.6" x2="400.1" y2="434.3" stroke="#0b1016" stroke-width="3"/><line x1="420.2" y1="443.1" x2="400.6" y2="453.1" stroke="#0b1016" stroke-width="3"/>
+<line x1="340" y1="484" x2="312.9" y2="391.9" stroke="#0b1016" stroke-width="4" stroke-linecap="round"/>
+<text x="340" y="420.4" fill="#0b1016" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">VU</text>
+</g>
+<g>
+<rect x="470" y="370" width="220" height="120" rx="8" fill="url(#meter)" filter="url(#glow)"/>
+<rect x="470" y="370" width="220" height="120" rx="8" fill="none" stroke="#0b1016" stroke-width="4"/>
+<line x1="499.8" y1="443.1" x2="519.4" y2="453.1" stroke="#0b1016" stroke-width="3"/><line x1="510.7" y1="426.6" x2="519.9" y2="434.3" stroke="#0b1016" stroke-width="3"/><line x1="524.8" y1="412.9" x2="532.2" y2="422.4" stroke="#0b1016" stroke-width="3"/><line x1="541.7" y1="402.6" x2="546.8" y2="413.4" stroke="#0b1016" stroke-width="3"/><line x1="560.4" y1="396.2" x2="563.0" y2="407.9" stroke="#0b1016" stroke-width="3"/><line x1="580.0" y1="394.0" x2="580.0" y2="416.0" stroke="#0b1016" stroke-width="3"/><line x1="599.6" y1="396.2" x2="597.0" y2="407.9" stroke="#0b1016" stroke-width="3"/><line x1="618.3" y1="402.6" x2="613.2" y2="413.4" stroke="#0b1016" stroke-width="3"/><line x1="635.2" y1="412.9" x2="627.8" y2="422.4" stroke="#0b1016" stroke-width="3"/><line x1="649.3" y1="426.6" x2="640.1" y2="434.3" stroke="#0b1016" stroke-width="3"/><line x1="660.2" y1="443.1" x2="640.6" y2="453.1" stroke="#0b1016" stroke-width="3"/>
+<line x1="580" y1="484" x2="621.9" y2="397.6" stroke="#0b1016" stroke-width="4" stroke-linecap="round"/>
+<text x="580" y="420.4" fill="#0b1016" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">VU</text>
+</g>
+<circle cx="880" cy="440" r="74" fill="#0d0f12" opacity=".6"/>
+<circle cx="880" cy="440" r="70" fill="url(#knob)" stroke="#2b3036" stroke-width="2"/>
+<line x1="880" y1="440" x2="878.6" y2="384.0" stroke="#15181c" stroke-width="8.75" stroke-linecap="round"/>
+<circle cx="250" cy="555" r="26" fill="#0d0f12" opacity=".6"/>
+<circle cx="250" cy="555" r="22" fill="url(#knob)" stroke="#2b3036" stroke-width="2"/>
+<line x1="250" y1="555" x2="232.9" y2="559.3" stroke="#15181c" stroke-width="2.75" stroke-linecap="round"/><circle cx="357.5" cy="555" r="26" fill="#0d0f12" opacity=".6"/>
+<circle cx="357.5" cy="555" r="22" fill="url(#knob)" stroke="#2b3036" stroke-width="2"/>
+<line x1="357.5" y1="555" x2="351.4" y2="538.5" stroke="#15181c" stroke-width="2.75" stroke-linecap="round"/><circle cx="465" cy="555" r="26" fill="#0d0f12" opacity=".6"/>
+<circle cx="465" cy="555" r="22" fill="url(#knob)" stroke="#2b3036" stroke-width="2"/>
+<line x1="465" y1="555" x2="471.9" y2="538.8" stroke="#15181c" stroke-width="2.75" stroke-linecap="round"/><circle cx="572.5" cy="555" r="26" fill="#0d0f12" opacity=".6"/>
+<circle cx="572.5" cy="555" r="22" fill="url(#knob)" stroke="#2b3036" stroke-width="2"/>
+<line x1="572.5" y1="555" x2="585.1" y2="542.7" stroke="#15181c" stroke-width="2.75" stroke-linecap="round"/><circle cx="680" cy="555" r="26" fill="#0d0f12" opacity=".6"/>
+<circle cx="680" cy="555" r="22" fill="url(#knob)" stroke="#2b3036" stroke-width="2"/>
+<line x1="680" y1="555" x2="669.2" y2="541.1" stroke="#15181c" stroke-width="2.75" stroke-linecap="round"/>
+<rect x="750" y="540" width="14" height="30" rx="4" fill="#2a2f36"/><rect x="753" y="543" width="8" height="12" rx="2" fill="#c3c9cf"/><rect x="796" y="540" width="14" height="30" rx="4" fill="#2a2f36"/><rect x="799" y="543" width="8" height="12" rx="2" fill="#c3c9cf"/><rect x="842" y="540" width="14" height="30" rx="4" fill="#2a2f36"/><rect x="845" y="543" width="8" height="12" rx="2" fill="#c3c9cf"/><rect x="888" y="540" width="14" height="30" rx="4" fill="#2a2f36"/><rect x="891" y="543" width="8" height="12" rx="2" fill="#c3c9cf"/>
+<text x="230" y="520" fill="#2b2418" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2" text-anchor="start">Rossweisse</text><text x="500" y="520" fill="#2b2418" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500" letter-spacing="2" text-anchor="start"></text></svg>

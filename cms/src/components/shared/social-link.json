@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_social_links",
+  "info": {
+    "displayName": "Social link",
+    "description": "e.g. Instagram and its https:// address"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "maxLength": 40,
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "maxLength": 300,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": "A piece of gear in the shop. Save keeps a private draft; Publish puts it on the website."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 140
+    },
+    "sku": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "maxLength": 32,
+      "regex": "^[A-Za-z0-9][A-Za-z0-9-]{2,31}$"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "brand": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::brand.brand",
+      "inversedBy": "products"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "products"
+    },
+    "modelNumber": {
+      "type": "string",
+      "maxLength": 80
+    },
+    "price": {
+      "type": "integer",
+      "required": true,
+      "min": 0
+    },
+    "availability": {
+      "type": "enumeration",
+      "enum": [
+        "available",
+        "on-hold",
+        "sold"
+      ],
+      "default": "available",
+      "required": true
+    },
+    "arrivedOn": {
+      "type": "date",
+      "required": true
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "summary": {
+      "type": "text",
+      "required": true,
+      "maxLength": 280
+    },
+    "photos": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "conditionGrade": {
+      "type": "enumeration",
+      "required": true,
+      "default": "grade-7-good",
+      "enum": [
+        "new",
+        "new-old-stock",
+        "grade-10-mint",
+        "grade-9-excellent",
+        "grade-8-very-good",
+        "grade-7-good",
+        "grade-6-fair",
+        "grade-5-average",
+        "grade-4-worn",
+        "grade-3-rough",
+        "grade-2-very-rough",
+        "grade-1-for-parts"
+      ]
+    },
+    "workingCondition": {
+      "type": "text",
+      "maxLength": 600
+    },
+    "cosmeticNotes": {
+      "type": "text",
+      "maxLength": 1200
+    },
+    "newOrUsed": {
+      "type": "enumeration",
+      "enum": [
+        "pre-owned",
+        "new",
+        "new-old-stock"
+      ],
+      "default": "pre-owned",
+      "required": true
+    },
+    "era": {
+      "type": "enumeration",
+      "enum": [
+        "vintage",
+        "modern"
+      ],
+      "default": "vintage",
+      "required": true
+    },
+    "technology": {
+      "type": "enumeration",
+      "enum": [
+        "tube",
+        "solid-state",
+        "hybrid"
+      ]
+    },
+    "voltage": {
+      "type": "enumeration",
+      "enum": [
+        "us-120v",
+        "intl-220-240v",
+        "switchable"
+      ]
+    },
+    "rare": {
+      "type": "boolean",
+      "default": false
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "serviceNotes": {
+      "type": "text",
+      "maxLength": 2000
+    },
+    "tubeNotes": {
+      "type": "text",
+      "maxLength": 1000
+    },
+    "ownershipHistory": {
+      "type": "text",
+      "maxLength": 600
+    },
+    "soundCharacter": {
+      "type": "text",
+      "maxLength": 600
+    },
+    "connections": {
+      "type": "text",
+      "maxLength": 600
+    },
+    "includedItems": {
+      "type": "text",
+      "maxLength": 600
+    },
+    "specs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.spec"
+    },
+    "yearsInProduction": {
+      "type": "string",
+      "maxLength": 40
+    },
+    "dimensions": {
+      "type": "string",
+      "maxLength": 160
+    },
+    "weight": {
+      "type": "string",
+      "maxLength": 80
+    },
+    "manual": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "localPickupOnly": {
+      "type": "boolean",
+      "default": false
+    },
+    "shippingNote": {
+      "type": "text",
+      "maxLength": 400
+    },
+    "recommendedWith": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    }
+  }
+}

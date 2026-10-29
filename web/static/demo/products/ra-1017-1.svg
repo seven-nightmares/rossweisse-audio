@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900"><defs>
+  <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+    <stop offset="0" stop-color="#f3f1ee"/><stop offset=".6" stop-color="#e4e1dc"/><stop offset="1" stop-color="#d3cfc9"/>
+  </radialGradient>
+  <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dcd8d2"/><stop offset="1" stop-color="#cbc6bf"/>
+  </linearGradient>
+  <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#d8c9a5"/><stop offset="1" stop-color="#bfae86"/>
+  </linearGradient>
+  <radialGradient id="meter" cx="50%" cy="85%" r="90%">
+    <stop offset="0" stop-color="#4db4ff" stop-opacity=".95"/><stop offset="1" stop-color="#4db4ff" stop-opacity=".35"/>
+  </radialGradient>
+  <radialGradient id="knob" cx="35%" cy="30%" r="80%">
+    <stop offset="0" stop-color="#f2f4f6"/><stop offset=".55" stop-color="#9aa1aa"/><stop offset="1" stop-color="#3b4148"/>
+  </radialGradient>
+  <radialGradient id="cone" cx="45%" cy="40%" r="70%">
+    <stop offset="0" stop-color="#3a3f46"/><stop offset=".7" stop-color="#15181c"/><stop offset="1" stop-color="#0b0d10"/>
+  </radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="14" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs><rect width="1200" height="900" fill="url(#bg)"/>
+<rect y="690" width="1200" height="210" fill="url(#floor)"/>
+<line x1="0" y1="690" x2="1200" y2="690" stroke="#d2cdc6" stroke-width="2"/><ellipse cx="370" cy="720" rx="170" ry="20" fill="#3a342c" opacity=".28"/>
+<rect x="230" y="150" width="280" height="560" rx="14" fill="#4a2f1d" stroke="#2a1b10" stroke-width="4"/>
+<rect x="244" y="164" width="252" height="532" rx="8" fill="#16191d"/>
+<circle cx="370" cy="240" r="44" fill="#0b0d10"/>
+<circle cx="370" cy="240" r="34" fill="url(#cone)" stroke="#2a2f36" stroke-width="4"/>
+<circle cx="370" cy="240" r="9.520000000000001" fill="#23272d" stroke="#3a4048" stroke-width="3"/><circle cx="370" cy="370" r="72" fill="#0b0d10"/>
+<circle cx="370" cy="370" r="62" fill="url(#cone)" stroke="#2a2f36" stroke-width="4"/>
+<circle cx="370" cy="370" r="17.360000000000003" fill="#23272d" stroke="#3a4048" stroke-width="3"/><circle cx="370" cy="560" r="110" fill="#0b0d10"/>
+<circle cx="370" cy="560" r="100" fill="url(#cone)" stroke="#2a2f36" stroke-width="4"/>
+<circle cx="370" cy="560" r="28.000000000000004" fill="#23272d" stroke="#3a4048" stroke-width="3"/>
+<text x="370" y="685" fill="#9aa1aa" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="3" text-anchor="middle">HALVORSEN ACOUSTICS</text><ellipse cx="830" cy="720" rx="170" ry="20" fill="#3a342c" opacity=".28"/>
+<rect x="690" y="150" width="280" height="560" rx="14" fill="#4a2f1d" stroke="#2a1b10" stroke-width="4"/>
+<rect x="704" y="164" width="252" height="532" rx="8" fill="#16191d"/>
+<circle cx="830" cy="240" r="44" fill="#0b0d10"/>
+<circle cx="830" cy="240" r="34" fill="url(#cone)" stroke="#2a2f36" stroke-width="4"/>
+<circle cx="830" cy="240" r="9.520000000000001" fill="#23272d" stroke="#3a4048" stroke-width="3"/><circle cx="830" cy="370" r="72" fill="#0b0d10"/>
+<circle cx="830" cy="370" r="62" fill="url(#cone)" stroke="#2a2f36" stroke-width="4"/>
+<circle cx="830" cy="370" r="17.360000000000003" fill="#23272d" stroke="#3a4048" stroke-width="3"/><circle cx="830" cy="560" r="110" fill="#0b0d10"/>
+<circle cx="830" cy="560" r="100" fill="url(#cone)" stroke="#2a2f36" stroke-width="4"/>
+<circle cx="830" cy="560" r="28.000000000000004" fill="#23272d" stroke="#3a4048" stroke-width="3"/>
+<text x="830" y="685" fill="#9aa1aa" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="3" text-anchor="middle">HALVORSEN ACOUSTICS</text></svg>

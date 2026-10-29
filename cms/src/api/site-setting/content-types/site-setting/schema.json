@@ -1,0 +1,64 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_settings",
+  "info": {
+    "singularName": "site-setting",
+    "pluralName": "site-settings",
+    "displayName": "Site Settings",
+    "description": "Shop name, banner, home page hero and contact details."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "shopName": {
+      "type": "string",
+      "maxLength": 80,
+      "required": true
+    },
+    "tagline": {
+      "type": "string",
+      "maxLength": 140
+    },
+    "announcement": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "heroTitle": {
+      "type": "string",
+      "maxLength": 140
+    },
+    "heroText": {
+      "type": "text",
+      "maxLength": 400
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string",
+      "maxLength": 40
+    },
+    "address": {
+      "type": "text",
+      "maxLength": 400
+    },
+    "hours": {
+      "type": "text",
+      "maxLength": 400
+    },
+    "social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social-link"
+    }
+  }
+}

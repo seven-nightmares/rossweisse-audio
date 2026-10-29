@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wanted_items",
+  "info": {
+    "singularName": "wanted-item",
+    "pluralName": "wanted-items",
+    "displayName": "Wanted Item",
+    "description": "Gear the shop is looking to buy. Shown on the Wanted page."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "brand": {
+      "type": "string",
+      "maxLength": 80,
+      "required": true
+    },
+    "model": {
+      "type": "string",
+      "maxLength": 160,
+      "required": true
+    },
+    "note": {
+      "type": "string",
+      "maxLength": 160
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
